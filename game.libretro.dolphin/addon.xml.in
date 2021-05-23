@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.dolphin"
 		name="Nintendo - GameCube / Wii (Dolphin)"
-		version="1.0.0.1"
-		provider-name="Libretro">
+		version="13.0.0.2"
+		provider-name="Team Dolphin">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.nes" version="1.0.0"/>
@@ -10,15 +10,15 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>NGC</platforms>
-		<extensions>elf|dol|gcm|iso|tgc|wbfs|ciso|gcz|wad</extensions>
+		<extensions>elf|dol|gcm|iso|tgc|wbfs|ciso|gcz|wad|wia|rvz|m3u</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) 1a7d1bc8</summary>
+		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) 13ad7dd3</summary>
 		<description lang="en_GB">Source: https://github.com/libretro/dolphin
 
-Supported files: .elf, .dol, .gcm, .iso, .tgc, .wbfs, .ciso, .gcz, .wad</description>
+Supported files: .elf, .dol, .gcm, .iso, .tgc, .wbfs, .ciso, .gcz, .wad, .wia, .rvz, .m3u</description>
 		<license>GPLv2+</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.dolphin</source>

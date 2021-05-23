@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 	<category label="30000">
-		<setting label="30001" type="select" id="dolphin_cpu_clock_rate" values="100%|150%|200%|250%|300%|5%|10%|20%|30%|40%|50%|60%|70%|80%|90%" default="100%"/>
-		<setting label="30002" type="select" id="dolphin_cpu_core" values="JIT64|Interpreter|Cached Interpreter" default="JIT64"/>
-		<setting label="30003" type="select" id="dolphin_dsp_hle" values="enabled|disabled" default="enabled"/>
-		<setting label="30004" type="select" id="dolphin_dsp_jit" values="enabled|disabled" default="enabled"/>
-		<setting label="30005" type="select" id="dolphin_efb_scale" values="x1 (640 x 528)|x2 (1280 x 1056)|x3 (1920 x 1584)|x4 (2560 * 2112)|x5 (3200 x 2640)|x6 (3840 x 3168)" default="x1 (640 x 528)"/>
-		<setting label="30006" type="select" id="dolphin_efb_scaled_copy" values="enabled|disabled" default="enabled"/>
-		<setting label="30007" type="select" id="dolphin_efb_to_texture" values="enabled|disabled" default="enabled"/>
-		<setting label="30008" type="select" id="dolphin_efb_to_vram" values="disabled|enabled" default="disabled"/>
-		<setting label="30009" type="select" id="dolphin_fastmem" values="enabled|disabled" default="enabled"/>
-		<setting label="30010" type="select" id="dolphin_gpu_texture_decoding" values="disabled|enabled" default="disabled"/>
-		<setting label="30011" type="select" id="dolphin_language" values="English|Japanese|German|French|Spanish|Italian|Dutch|Simplified Chinese|Traditional Chinese|Korean" default="English"/>
-		<setting label="30012" type="select" id="dolphin_log_level" values="Info|Notice|Error|Warning" default="Info"/>
-		<setting label="30013" type="select" id="dolphin_max_anisotropy" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16" default="0"/>
-		<setting label="30014" type="select" id="dolphin_mixer_rate" values="32000|48000" default="32000"/>
-		<setting label="30015" type="select" id="dolphin_pal60" values="enabled|disabled" default="enabled"/>
-		<setting label="30016" type="select" id="dolphin_progressive_scan" values="enabled|disabled" default="enabled"/>
-		<setting label="30017" type="select" id="dolphin_renderer" values="Hardware|Software|Null" default="Hardware"/>
-		<setting label="30018" type="select" id="dolphin_sensor_bar_position" values="Bottom|Top" default="Bottom"/>
-		<setting label="30019" type="select" id="dolphin_shader_compilation_mode" values="sync|a-sync Skip Rendering|sync UberShaders|a-sync UberShaders" default="sync"/>
-		<setting label="30020" type="select" id="dolphin_wait_for_shaders" values="disabled|enabled" default="disabled"/>
-		<setting label="30021" type="select" id="dolphin_widescreen" values="enabled|disabled" default="enabled"/>
-		<setting label="30022" type="select" id="dolphin_widescreen_hack" values="disabled|enabled" default="disabled"/>
+		<setting label="30001" type="select" id="dolphin_efb_scale" values="x1 (640 x 528)|x2 (1280 x 1056)|x3 (1920 x 1584)|x4 (2560 * 2112)|x5 (3200 x 2640)|x6 (3840 x 3168)" default="x1 (640 x 528)"/>
+		<setting label="30002" type="select" id="dolphin_log_level" values="Info|Notice|Error|Warning" default="Info"/>
+		<setting label="30003" type="select" id="dolphin_cpu_clock_rate" values="100%|150%|200%|250%|300%|5%|10%|20%|30%|40%|50%|60%|70%|80%|90%" default="100%"/>
+		<setting label="30004" type="select" id="dolphin_renderer" values="Hardware|Software|Null" default="Hardware"/>
+		<setting label="30005" type="select" id="dolphin_fastmem" values="enabled|disabled" default="enabled"/>
+		<setting label="30006" type="select" id="dolphin_dsp_hle" values="enabled|disabled" default="enabled"/>
+		<setting label="30007" type="select" id="dolphin_dsp_jit" values="enabled|disabled" default="enabled"/>
+		<setting label="30008" type="select" id="dolphin_cpu_core" values="JIT64|Interpreter|Cached Interpreter" default="JIT64"/>
+		<setting label="30009" type="select" id="dolphin_language" values="English|Japanese|German|French|Spanish|Italian|Dutch|Simplified Chinese|Traditional Chinese|Korean" default="English"/>
+		<setting label="30010" type="select" id="dolphin_widescreen" values="enabled|disabled" default="enabled"/>
+		<setting label="30011" type="select" id="dolphin_widescreen_hack" values="disabled|enabled" default="disabled"/>
+		<setting label="30012" type="select" id="dolphin_progressive_scan" values="enabled|disabled" default="enabled"/>
+		<setting label="30013" type="select" id="dolphin_pal60" values="enabled|disabled" default="enabled"/>
+		<setting label="30014" type="select" id="dolphin_sensor_bar_position" values="Bottom|Top" default="Bottom"/>
+		<setting label="30015" type="select" id="dolphin_wiimote_continuous_scanning" values="disabled|enabled" default="disabled"/>
+		<setting label="30016" type="select" id="dolphin_mixer_rate" values="32000|48000" default="32000"/>
+		<setting label="30017" type="select" id="dolphin_shader_compilation_mode" values="sync|a-sync Skip Rendering|sync UberShaders|a-sync UberShaders" default="sync"/>
+		<setting label="30018" type="select" id="dolphin_max_anisotropy" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16" default="0"/>
+		<setting label="30019" type="select" id="dolphin_efb_scaled_copy" values="enabled|disabled" default="enabled"/>
+		<setting label="30020" type="select" id="dolphin_efb_to_texture" values="enabled|disabled" default="enabled"/>
+		<setting label="30021" type="select" id="dolphin_efb_to_vram" values="disabled|enabled" default="disabled"/>
+		<setting label="30022" type="select" id="dolphin_fast_depth_calculation" values="enabled|disabled" default="enabled"/>
+		<setting label="30023" type="select" id="dolphin_bbox_enabled" values="disabled|enabled" default="disabled"/>
+		<setting label="30024" type="select" id="dolphin_gpu_texture_decoding" values="disabled|enabled" default="disabled"/>
+		<setting label="30025" type="select" id="dolphin_wait_for_shaders" values="disabled|enabled" default="disabled"/>
+		<setting label="30026" type="select" id="dolphin_force_texture_filtering" values="disabled|enabled" default="disabled"/>
+		<setting label="30027" type="select" id="dolphin_load_custom_textures" values="disabled|enabled" default="disabled"/>
+		<setting label="30028" type="select" id="dolphin_cheats_enabled" values="disabled|enabled" default="disabled"/>
+		<setting label="30029" type="select" id="dolphin_texture_cache_accuracy" values="Fast|Middle|Safe" default="Fast"/>
+		<setting label="30030" type="select" id="dolphin_osd_enabled" values="enabled|disabled" default="enabled"/>
 	</category>
 </settings>
