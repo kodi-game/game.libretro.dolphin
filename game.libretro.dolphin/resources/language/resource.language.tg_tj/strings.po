@@ -1,0 +1,141 @@
+# game.libretro.dolphin language file
+# Addon Name: game.libretro.dolphin
+# Addon id: game.libretro.dolphin
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.dolphin\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2017-12-03 11:17i\n"
+"PO-Revision-Date: 2017-12-03 11:17i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: tg_tj\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "EFB Scale"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Log Level"
+msgstr ""
+
+msgctxt "#30003"
+msgid "CPU Clock Rate"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Renderer"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Fastmem"
+msgstr ""
+
+msgctxt "#30006"
+msgid "DSP HLE"
+msgstr ""
+
+msgctxt "#30007"
+msgid "DSP Enable JIT"
+msgstr ""
+
+msgctxt "#30008"
+msgid "CPU Core"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Language"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Widescreen"
+msgstr ""
+
+msgctxt "#30011"
+msgid "WideScreen Hack"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Progressive Scan"
+msgstr ""
+
+msgctxt "#30013"
+msgid "PAL60"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Sensor Bar Position"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Wiimote Continuous Scanning"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Audio Mixer Rate"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Shader Compilation Mode"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Max Anisotropy"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Scaled EFB Copy"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Store EFB Copies on GPU"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Disable EFB to VRAM"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Fast Depth Calculation"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Bounding Box Emulation"
+msgstr ""
+
+msgctxt "#30024"
+msgid "GPU Texture Decoding"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Wait for Shaders before Starting"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Force Texture Filtering"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Load Custom Textures"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Internal Cheats Enabled"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Texture Cache Accuracy"
+msgstr ""
+
+msgctxt "#30030"
+msgid "OSD Enabled"
+msgstr ""
