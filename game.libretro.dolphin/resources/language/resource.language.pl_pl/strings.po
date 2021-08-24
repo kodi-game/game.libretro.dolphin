@@ -22,9 +22,7 @@ msgid "Nintendo - GameCube / Wii (Dolphin) 9ca47249"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "Source: https://github.com/libretro/dolphin
-
-Supported files: .elf, .dol, .gcm, .iso, .tgc, .wbfs, .ciso, .gcz, .wad, .wia, .rvz, .m3u"
+msgid "Source: https://github.com/libretro/dolphin[CR][CR]Supported files: .elf, .dol, .gcm, .iso, .tgc, .wbfs, .ciso, .gcz, .wad, .wia, .rvz, .m3u"
 msgstr ""
 
 msgctxt "#30000"
