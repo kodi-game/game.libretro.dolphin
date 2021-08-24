@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.dolphin"
 		name="Nintendo - GameCube / Wii (Dolphin)"
-		version="13.0.0.2"
+		version="9.0.0.3"
 		provider-name="Team Dolphin">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -15,7 +15,7 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) 13ad7dd3</summary>
+		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) 9ca47249</summary>
 		<description lang="en_GB">Source: https://github.com/libretro/dolphin
 
 Supported files: .elf, .dol, .gcm, .iso, .tgc, .wbfs, .ciso, .gcz, .wad, .wia, .rvz, .m3u</description>
