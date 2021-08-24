@@ -16,6 +16,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5;\n"
 
+msgctxt "Addon Summary"
+msgid "Nintendo - GameCube / Wii (Dolphin) 9ca47249"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Source: https://github.com/libretro/dolphin
+
+Supported files: .elf, .dol, .gcm, .iso, .tgc, .wbfs, .ciso, .gcz, .wad, .wia, .rvz, .m3u"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""
