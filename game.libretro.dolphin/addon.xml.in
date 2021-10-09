@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.dolphin"
 		name="Nintendo - GameCube / Wii (Dolphin)"
-		version="9.0.0.4"
+		version="4.0.0.5"
 		provider-name="Team Dolphin">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -19,7 +19,7 @@
 		<license>GPLv2+</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.dolphin</source>
-		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) 9ca47249</summary>
+		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) 4ffaf058</summary>
 		<description lang="en_GB">Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii.</description>
 	</extension>
 </addon>

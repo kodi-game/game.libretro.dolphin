@@ -18,7 +18,7 @@
 		<setting label="30015" type="select" id="dolphin_wiimote_continuous_scanning" values="disabled|enabled" default="disabled"/>
 		<setting label="30016" type="select" id="dolphin_mixer_rate" values="32000|48000" default="32000"/>
 		<setting label="30017" type="select" id="dolphin_shader_compilation_mode" values="sync|a-sync Skip Rendering|sync UberShaders|a-sync UberShaders" default="sync"/>
-		<setting label="30018" type="select" id="dolphin_max_anisotropy" values="0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16" default="0"/>
+		<setting label="30018" type="select" id="dolphin_max_anisotropy" values="1x|2x|4x|8x|16x" default="1x"/>
 		<setting label="30019" type="select" id="dolphin_efb_scaled_copy" values="enabled|disabled" default="enabled"/>
 		<setting label="30020" type="select" id="dolphin_efb_to_texture" values="enabled|disabled" default="enabled"/>
 		<setting label="30021" type="select" id="dolphin_efb_to_vram" values="disabled|enabled" default="disabled"/>
