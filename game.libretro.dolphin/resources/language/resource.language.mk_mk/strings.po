@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
 
 msgctxt "Addon Summary"
-msgid "Nintendo - GameCube / Wii (Dolphin) 9ca47249"
+msgid "Nintendo - GameCube / Wii (Dolphin) 4ffaf058"
 msgstr ""
 
 msgctxt "Addon Description"

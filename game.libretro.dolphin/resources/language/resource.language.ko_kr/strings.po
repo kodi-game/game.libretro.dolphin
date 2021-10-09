@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 4.8\n"
 
 msgctxt "Addon Summary"
-msgid "Nintendo - GameCube / Wii (Dolphin) 9ca47249"
+msgid "Nintendo - GameCube / Wii (Dolphin) 4ffaf058"
 msgstr ""
 
 msgctxt "Addon Description"
