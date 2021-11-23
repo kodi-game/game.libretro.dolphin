@@ -20,6 +20,7 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.dolphin</source>
 		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin) 4ffaf058</summary>
+		<description lang="da_DK">Dolphin er en emulator til to nyere Nintendo-videospilkonsoller: GameCube og Wii.</description>
 		<description lang="en_GB">Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii.</description>
 	</extension>
 </addon>
