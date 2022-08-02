@@ -23,5 +23,6 @@
 		<description lang="da_DK">Dolphin er en emulator til to nyere Nintendo-videospilkonsoller: GameCube og Wii.</description>
 		<description lang="en_GB">Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii.</description>
 		<description lang="fi_FI">Dolphin on emulaattori Nintendon GameCube- ja Wii-konsoleille.</description>
+		<description lang="zh_CN">Dolphin 是最近任天堂两款视频游戏机 GameCube 和 Wii 的模拟器。</description>
 	</extension>
 </addon>
