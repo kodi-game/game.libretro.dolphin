@@ -62,125 +62,141 @@ msgid "PAL60"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Max Anisotropy"
+msgid "Anti-Aliasing"
 msgstr ""
 
 msgctxt "#30010"
-msgid "Skip Presenting Duplicate Frames"
+msgid "Max Anisotropy"
 msgstr ""
 
 msgctxt "#30011"
-msgid "Scaled EFB Copy"
+msgid "Skip Presenting Duplicate Frames"
 msgstr ""
 
 msgctxt "#30012"
-msgid "Force Texture Filtering"
+msgid "Immediate XFB"
 msgstr ""
 
 msgctxt "#30013"
-msgid "Store EFB Copies on GPU"
+msgid "Scaled EFB Copy"
 msgstr ""
 
 msgctxt "#30014"
-msgid "Texture Cache Accuracy"
+msgid "Force Texture Filtering"
 msgstr ""
 
 msgctxt "#30015"
-msgid "GPU Texture Decoding"
+msgid "Store EFB Copies on GPU"
 msgstr ""
 
 msgctxt "#30016"
-msgid "Fast Depth Calculation"
+msgid "Texture Cache Accuracy"
 msgstr ""
 
 msgctxt "#30017"
-msgid "Bounding Box Emulation"
+msgid "GPU Texture Decoding"
 msgstr ""
 
 msgctxt "#30018"
-msgid "Disable EFB to VRAM"
+msgid "Fast Depth Calculation"
 msgstr ""
 
 msgctxt "#30019"
-msgid "Load Custom Textures"
+msgid "Bounding Box Emulation"
 msgstr ""
 
 msgctxt "#30020"
-msgid "Prefetch Custom Textures"
+msgid "Disable EFB to VRAM"
 msgstr ""
 
 msgctxt "#30021"
-msgid "CPU Core"
+msgid "Load Custom Textures"
 msgstr ""
 
 msgctxt "#30022"
-msgid "CPU Clock Rate"
+msgid "Prefetch Custom Textures"
 msgstr ""
 
 msgctxt "#30023"
-msgid "Emulation Speed"
+msgid "CPU Core"
 msgstr ""
 
 msgctxt "#30024"
-msgid "Fastmem"
+msgid "CPU Clock Rate"
 msgstr ""
 
 msgctxt "#30025"
-msgid "Wiimote IR Mode"
+msgid "Emulation Speed"
 msgstr ""
 
 msgctxt "#30026"
-msgid "Wiimote IR Vertical Offset"
+msgid "Fastmem"
 msgstr ""
 
 msgctxt "#30027"
-msgid "Wiimote IR Total Yaw"
+msgid "Speed Up Disc Transfer Rate"
 msgstr ""
 
 msgctxt "#30028"
-msgid "Wiimote IR Total Pitch"
+msgid "Wiimote IR Mode"
 msgstr ""
 
 msgctxt "#30029"
-msgid "Rumble"
-msgstr "Vibració"
+msgid "Wiimote IR Vertical Offset"
+msgstr ""
 
 msgctxt "#30030"
-msgid "Sensor Bar Position"
+msgid "Wiimote IR Total Yaw"
 msgstr ""
 
 msgctxt "#30031"
-msgid "Wiimote Continuous Scanning"
+msgid "Wiimote IR Total Pitch"
 msgstr ""
 
 msgctxt "#30032"
-msgid "Use ports 5-8 for GameCube controllers in Wii mode"
+msgid "Rumble"
 msgstr ""
 
 msgctxt "#30033"
-msgid "Audio Mixer Rate"
+msgid "Sensor Bar Position"
 msgstr ""
 
 msgctxt "#30034"
-msgid "DSP HLE"
+msgid "Wiimote Continuous Scanning"
 msgstr ""
 
 msgctxt "#30035"
-msgid "DSP Enable JIT"
+msgid "Use ports 5-8 for GameCube controllers in Wii mode"
 msgstr ""
 
 msgctxt "#30036"
-msgid "Language"
+msgid "Audio Mixer Rate"
 msgstr ""
 
 msgctxt "#30037"
-msgid "Internal Cheats Enabled"
+msgid "DSP HLE"
 msgstr ""
 
 msgctxt "#30038"
-msgid "OSD Enabled"
+msgid "DSP Enable JIT"
 msgstr ""
 
 msgctxt "#30039"
+msgid "Language"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Internal Cheats Enabled"
+msgstr ""
+
+msgctxt "#30041"
+msgid "OSD Enabled"
+msgstr ""
+
+msgctxt "#30042"
 msgid "Log Level"
 msgstr ""
+
+#~ msgctxt "#30029"
+#~ msgid "Rumble"
+#~ msgstr "Vibració"
