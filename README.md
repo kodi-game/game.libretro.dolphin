@@ -13,7 +13,7 @@ GPLv2+
 
 ### Icon
 
-![Icon](game.libretro.dolphin/resources/icon.png)
+![Nintendo - GameCube / Wii (Dolphin) icon](game.libretro.dolphin/resources/icon.png)
 
 ### Fanart
 
