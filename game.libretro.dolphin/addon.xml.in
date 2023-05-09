@@ -22,6 +22,7 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<summary lang="da_DK">Nintendo - GameCube / Wii (Dolphin)</summary>
 		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin)</summary>
 		<summary lang="es_ES">Nintendo - GameCube / Wii (Dolphin)</summary>
 		<description lang="da_DK">Dolphin er en emulator til to nyere Nintendo-videospilkonsoller: GameCube og Wii.</description>
