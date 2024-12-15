@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii."
 msgstr "Dolphin er en emulator til to nyere Nintendo-videospilkonsoller: GameCube og Wii."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Indstillinger"
-
 msgctxt "#30001"
 msgid "Renderer"
 msgstr "Rendering"
@@ -196,6 +192,10 @@ msgstr "OSD aktiveret"
 msgctxt "#30042"
 msgid "Log Level"
 msgstr "Niveau for logføring"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
 
 #~ msgctxt "#30009"
 #~ msgid "Max Anisotropy"
