@@ -4,7 +4,7 @@ Maintainer: wsnipex <wsnipex@a1.net>
 Build-Depends: debhelper (>= 9.0.0),
                cmake,
                kodi-addon-dev,
-               libretro-dolphin (>= 89.0.0) | dolphin (>= 89.0.0)
+               libretro-dolphin (>= 0.0.1) | dolphin (>= 0.0.1)
 Standards-Version: 3.9.8
 Section: libs
 
