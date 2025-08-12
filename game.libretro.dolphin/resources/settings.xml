@@ -24,7 +24,7 @@
 		<setting label="30021" type="select" id="dolphin_load_custom_textures" values="disabled|enabled" default="disabled"/>
 		<setting label="30022" type="select" id="dolphin_cache_custom_textures" values="disabled|enabled" default="disabled"/>
 		<setting label="30023" type="select" id="dolphin_cpu_core" values="JIT64|Interpreter|Cached Interpreter" default="JIT64"/>
-		<setting label="30024" type="select" id="dolphin_cpu_clock_rate" values="100%|150%|200%|250%|300%|5%|10%|20%|30%|40%|50%|60%|70%|80%|90%" default="100%"/>
+		<setting label="30024" type="select" id="dolphin_cpu_clock_rate" values="100%|150%|200%|250%|300%|350%|400%|5%|10%|20%|30%|40%|50%|60%|70%|80%|90%" default="100%"/>
 		<setting label="30025" type="select" id="dolphin_emulation_speed" values="unlimited|100%" default="unlimited"/>
 		<setting label="30026" type="select" id="dolphin_fastmem" values="enabled|disabled" default="enabled"/>
 		<setting label="30027" type="select" id="dolphin_fast_disc_speed" values="disabled|enabled" default="disabled"/>
