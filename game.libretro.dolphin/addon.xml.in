@@ -25,6 +25,7 @@
 		<summary lang="da_DK">Nintendo - GameCube / Wii (Dolphin)</summary>
 		<summary lang="en_GB">Nintendo - GameCube / Wii (Dolphin)</summary>
 		<summary lang="es_ES">Nintendo - GameCube / Wii (Dolphin)</summary>
+		<summary lang="ga">Nintendo - GameCube / Wii (Dolphin)</summary>
 		<summary lang="pt_BR">Nintendo - GameCube / Wii (Dolphin)</summary>
 		<summary lang="sv_SE">Nintendo - GameCube / Wii (Dolphin)</summary>
 		<summary lang="zh_CN">任天堂 - GameCube / Wii (Dolphin)</summary>
@@ -33,6 +34,7 @@
 		<description lang="en_GB">Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii.</description>
 		<description lang="es_ES">Dolphin es un emulador para dos videoconsolas recientes de Nintendo: la GameCube y la Wii.</description>
 		<description lang="fi_FI">Dolphin on emulaattori Nintendon GameCube- ja Wii-konsoleille.</description>
+		<description lang="ga">Is aithriseoir é Dolphin do dhá chonsól físchluichí Nintendo le déanaí: an GameCube agus an Wii.</description>
 		<description lang="pt_BR">O Dolphin é um emulador para dois consoles de videogame recentes da Nintendo: o GameCube e o Wii.</description>
 		<description lang="sv_SE">Dolphin är en emulator för två av Nintendos senaste videospelskonsoler: GameCube och Wii.</description>
 		<description lang="zh_CN">Dolphin 是最近任天堂两款视频游戏机 GameCube 和 Wii 的模拟器。</description>
