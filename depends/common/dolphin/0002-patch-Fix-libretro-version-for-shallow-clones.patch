@@ -1,0 +1,36 @@
+From 5eb995ff975486a83a90e076cd05656327ae603c Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Tue, 18 Aug 2026 22:00:00 +0000
+Subject: [PATCH 2/2] patch: Fix libretro version for shallow clones
+
+Kodi's dependency builder checks out Dolphin without its tag history, causing
+git describe to return only a commit hash. The libretro frontend then reports
+a version beginning with that hash, which kodi-game-scripting cannot convert
+to a numeric add-on version.
+
+Fall back to Dolphin's declared release version when the description is not a
+numeric release or development version.
+---
+ CMake/ScmRevGen.cmake | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+diff --git a/CMake/ScmRevGen.cmake b/CMake/ScmRevGen.cmake
+index 175f0061..19311306 100644
+--- a/CMake/ScmRevGen.cmake
++++ b/CMake/ScmRevGen.cmake
+@@ -37,6 +37,13 @@ set(DOLPHIN_VERSION_MAJOR "2606")
+ set(DOLPHIN_VERSION_MINOR "0")
+ set(DOLPHIN_VERSION_PATCH ${DOLPHIN_WC_REVISION})
+ 
++# Shallow clones may only produce a commit hash from git describe. Libretro
++# needs a numeric version so consumers can convert it to semantic versioning.
++if(NOT DOLPHIN_WC_DESCRIBE MATCHES
++   "^[0-9]+([.][0-9]+)?(-[0-9]+)?(-dirty)?$")
++  set(DOLPHIN_WC_DESCRIBE "${DOLPHIN_VERSION_MAJOR}")
++endif()
++
+ # If Dolphin is not built from a Git repository, default the version info to
+ # reasonable values.
+ if(NOT DOLPHIN_WC_REVISION)
+-- 
+2.43.0
