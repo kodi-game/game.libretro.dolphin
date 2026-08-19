@@ -17,4 +17,29 @@
 		<feature name="cstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
 		<feature name="motor" mapto="RETRO_RUMBLE_STRONG"/>
 	</controller>
+	<!--
+	    The Wii Remote is a plain joypad on the wire: Dolphin defines
+	    RETRO_DEVICE_WIIMOTE as RETRO_DEVICE_JOYPAD and reads it as a Wii
+	    Remote whenever the running title is a Wii one, so no subclass is
+	    needed. The GameCube controller above is the same device type, which
+	    is why both are offered on every port - the one to pick is the one the
+	    game expects, and Dolphin interprets it by title.
+
+	    The mapping is not the obvious one. Dolphin binds 1 and 2 to X and Y,
+	    minus and plus to Select and Start, and Home to R3, so those are what
+	    the features have to be sent as.
+	-->
+	<controller id="game.controller.wiimote" type="RETRO_DEVICE_JOYPAD">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="one" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="two" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="minus" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="plus" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="home" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+	</controller>
 </buttonmap>
