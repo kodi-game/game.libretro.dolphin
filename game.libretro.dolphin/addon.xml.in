@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.dolphin"
 		name="Nintendo - GameCube / Wii (Dolphin)"
-		version="2606.0.0.33"
+		version="2606.0.0.34"
 		provider-name="Team Dolphin">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -15,7 +15,7 @@
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_disc_control>false</supports_disc_control>
-		<requires_opengl>true</requires_opengl>
+		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv2+</license>
