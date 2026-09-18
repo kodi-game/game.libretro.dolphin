@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.dolphin"
 		name="Nintendo - GameCube / Wii (Dolphin)"
-		version="2606.0.0.35"
+		version="2606.0.0.36"
 		provider-name="Team Dolphin">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -10,7 +10,7 @@
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms>NGC</platforms>
+		<platforms>Nintendo - GameCube / Wii</platforms>
 		<extensions>elf|dol|gcm|iso|tgc|wbfs|ciso|gcz|wad|wia|rvz|m3u</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
