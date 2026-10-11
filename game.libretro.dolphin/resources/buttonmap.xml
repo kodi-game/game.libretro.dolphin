@@ -42,4 +42,28 @@
 		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
 		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
 	</controller>
+	<!--
+	    A Wii Remote with a Classic Controller plugged in is Dolphin's device
+	    (4 << 8) | RETRO_DEVICE_JOYPAD, which is subclass 3. Its analog L and R
+	    triggers are read from the analog L2 and R2, and ZL and ZR from L and R.
+	-->
+	<controller id="game.controller.wii.classic" type="RETRO_DEVICE_JOYPAD" subclass="3">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="x" mapto="RETRO_DEVICE_ID_JOYPAD_X"/>
+		<feature name="y" mapto="RETRO_DEVICE_ID_JOYPAD_Y"/>
+		<feature name="minus" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="plus" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="home" mapto="RETRO_DEVICE_ID_JOYPAD_R3"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="zl" mapto="RETRO_DEVICE_ID_JOYPAD_L"/>
+		<feature name="zr" mapto="RETRO_DEVICE_ID_JOYPAD_R"/>
+		<feature name="l" mapto="RETRO_DEVICE_ID_JOYPAD_L2"/>
+		<feature name="r" mapto="RETRO_DEVICE_ID_JOYPAD_R2"/>
+		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
+		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
+	</controller>
 </buttonmap>
