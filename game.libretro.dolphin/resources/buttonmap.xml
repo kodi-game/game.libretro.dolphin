@@ -66,4 +66,5 @@
 		<feature name="leftstick" mapto="RETRO_DEVICE_INDEX_ANALOG_LEFT"/>
 		<feature name="rightstick" mapto="RETRO_DEVICE_INDEX_ANALOG_RIGHT"/>
 	</controller>
+	<controller id="game.controller.wiimote.real" type="RETRO_DEVICE_NONE" subclass="5"/>
 </buttonmap>
