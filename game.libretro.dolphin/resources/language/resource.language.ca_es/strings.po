@@ -2142,6 +2142,22 @@ msgctxt "#30529"
 msgid "26765"
 msgstr ""
 
+msgctxt "#30530"
+msgid "Graphics > Settings > VR Mode"
+msgstr ""
+
+msgctxt "#30531"
+msgid "'Stereoscopic' shows the game on a virtual screen in 3D. 'Immersive' also turns the game camera with your head. Expect odd things in immersive mode. Requires a frontend with VR support."
+msgstr ""
+
+msgctxt "#30532"
+msgid "Stereoscopic"
+msgstr ""
+
+msgctxt "#30533"
+msgid "Immersive (Free Look)"
+msgstr ""
+
 #~ msgctxt "#30032"
 #~ msgid "Rumble"
 #~ msgstr "Vibració"
