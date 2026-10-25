@@ -1097,6 +1097,28 @@
 		</category>
 		<category id="wiimote" label="30312" help="30313">
 			<group id="1">
+				<setting id="dolphin_wiimote_default_device" type="string" label="30534" help="30535">
+					<level>0</level>
+					<default>frontend</default>
+					<constraints>
+						<options>
+							<option label="30536">frontend</option>
+							<option label="30537">upright</option>
+							<option label="30538">sideways</option>
+							<option label="30539">nunchuk</option>
+							<option label="30540">classic</option>
+							<option label="30541">classic_pro</option>
+							<option label="30542">motionplus</option>
+							<option label="30543">motionplus_sideways</option>
+							<option label="30544">motionplus_nunchuk</option>
+							<option label="30545">motionplus_classic</option>
+							<option label="30546">motionplus_classic_pro</option>
+							<option label="30547">real</option>
+							<option label="30548">gamecube</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 				<setting id="dolphin_hotkey_sideways_toggle" type="string" label="30314" help="30315">
 					<level>0</level>
 					<default>L3</default>
@@ -1676,6 +1698,17 @@
 				<setting id="dolphin_default_mouse_bindings_enabled" type="string" label="30508" help="30509">
 					<level>0</level>
 					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="dolphin_log_popups_enabled" type="string" label="30549" help="30550">
+					<level>0</level>
+					<default>disabled</default>
 					<constraints>
 						<options>
 							<option label="13106">disabled</option>
