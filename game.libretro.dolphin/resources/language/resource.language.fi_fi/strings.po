@@ -2158,6 +2158,74 @@ msgctxt "#30533"
 msgid "Immersive (Free Look)"
 msgstr ""
 
+msgctxt "#30534"
+msgid "WiiMote > Device"
+msgstr ""
+
+msgctxt "#30535"
+msgid "Device to use on every Wii port, in place of the one set for that port. Real WiiMote plays with Wiimotes connected to this device, for example through a DolphinBar, and scans for them continuously."
+msgstr ""
+
+msgctxt "#30536"
+msgid "Set per port"
+msgstr ""
+
+msgctxt "#30537"
+msgid "WiiMote (upright)"
+msgstr ""
+
+msgctxt "#30538"
+msgid "WiiMote (sideways)"
+msgstr ""
+
+msgctxt "#30539"
+msgid "WiiMote + Nunchuk"
+msgstr ""
+
+msgctxt "#30540"
+msgid "WiiMote + Classic Controller"
+msgstr ""
+
+msgctxt "#30541"
+msgid "WiiMote + Classic Controller Pro"
+msgstr ""
+
+msgctxt "#30542"
+msgid "WiiMote + MotionPlus"
+msgstr ""
+
+msgctxt "#30543"
+msgid "WiiMote + MotionPlus (sideways)"
+msgstr ""
+
+msgctxt "#30544"
+msgid "WiiMote + MotionPlus + Nunchuk"
+msgstr ""
+
+msgctxt "#30545"
+msgid "WiiMote + MotionPlus + Classic Controller"
+msgstr ""
+
+msgctxt "#30546"
+msgid "WiiMote + MotionPlus + Classic Controller Pro"
+msgstr ""
+
+msgctxt "#30547"
+msgid "Real WiiMote"
+msgstr ""
+
+msgctxt "#30548"
+msgid "GameCube Controller"
+msgstr ""
+
+msgctxt "#30549"
+msgid "Interface > Logging > Popups"
+msgstr ""
+
+msgctxt "#30550"
+msgid "Enable Popup log messages."
+msgstr ""
+
 #~ msgctxt "#30001"
 #~ msgid "Renderer"
 #~ msgstr "Renderöijä"
