@@ -1774,6 +1774,50 @@ msgctxt "#30548"
 msgid "GameCube Controller"
 msgstr "GameCube-handkontroll"
 
+msgctxt "#30551"
+msgid "CPU Core"
+msgstr ""
+
+msgctxt "#30552"
+msgid "CPU Clock Rate"
+msgstr ""
+
+msgctxt "#30553"
+msgid "Emulation Speed"
+msgstr ""
+
+msgctxt "#30554"
+msgid "Dual Core Mode"
+msgstr ""
+
+msgctxt "#30555"
+msgid "Synchronize GPU Thread"
+msgstr ""
+
+msgctxt "#30556"
+msgid "Keeps the dual-core GPU thread in step with the CPU thread, which stops FIFO desyncs at some speed cost. Requires core RESTART."
+msgstr ""
+
+msgctxt "#30557"
+msgid "Load Whole Game Into Memory"
+msgstr ""
+
+msgctxt "#30558"
+msgid "Precision Frame Timing"
+msgstr ""
+
+msgctxt "#30559"
+msgid "Fastmem"
+msgstr ""
+
+msgctxt "#30560"
+msgid "Fastmem Arena"
+msgstr ""
+
+msgctxt "#30561"
+msgid "Accurate CPU cache"
+msgstr ""
+
 msgctxt "#30562"
 msgid "Internal Cheats"
 msgstr "Inbyggda fuskkoder"
@@ -1781,6 +1825,10 @@ msgstr "Inbyggda fuskkoder"
 msgctxt "#30563"
 msgid "Skip GameCube BIOS"
 msgstr "Hoppa över GameCube-BIOS"
+
+msgctxt "#30564"
+msgid "Disc Based Games Boot to Wii System Menu"
+msgstr ""
 
 msgctxt "#30565"
 msgid "System Language"
@@ -1802,18 +1850,6 @@ msgctxt "#30569"
 msgid "Smooth Early Presentation"
 msgstr "Mjuk tidig bildrutepresentation"
 
-msgctxt "#30573"
-msgid "On-Screen Display"
-msgstr "Skärmvisning"
-
-msgctxt "#30574"
-msgid "Log Level"
-msgstr "Loggnivå"
-
-msgctxt "#30585"
-msgid "Enable debugging"
-msgstr "Aktivera felsökning"
-
 msgctxt "#30570"
 msgid "DSP HLE"
 msgstr "DSP HLE"
@@ -1825,6 +1861,58 @@ msgstr "DSP JIT"
 msgctxt "#30572"
 msgid "Async Audio Callback"
 msgstr "Asynkront ljudåteranrop"
+
+msgctxt "#30573"
+msgid "On-Screen Display"
+msgstr "Skärmvisning"
+
+msgctxt "#30574"
+msgid "Log Level"
+msgstr "Loggnivå"
+
+msgctxt "#30575"
+msgid "Boot Logging"
+msgstr ""
+
+msgctxt "#30576"
+msgid "Core Logging"
+msgstr ""
+
+msgctxt "#30577"
+msgid "Video Logging"
+msgstr ""
+
+msgctxt "#30578"
+msgid "Common Logging"
+msgstr ""
+
+msgctxt "#30579"
+msgid "Host GPU Logging"
+msgstr ""
+
+msgctxt "#30580"
+msgid "MemMap Logging"
+msgstr ""
+
+msgctxt "#30581"
+msgid "DSP Interface Logging"
+msgstr ""
+
+msgctxt "#30582"
+msgid "DSP HLE Logging"
+msgstr ""
+
+msgctxt "#30583"
+msgid "DSP LLE Logging"
+msgstr ""
+
+msgctxt "#30584"
+msgid "DSP MAIL Logging"
+msgstr ""
+
+msgctxt "#30585"
+msgid "Enable debugging"
+msgstr "Aktivera felsökning"
 
 msgctxt "#30586"
 msgid "SP1 Device"
@@ -2054,6 +2142,14 @@ msgctxt "#30642"
 msgid "Device"
 msgstr "Enhet"
 
+msgctxt "#30643"
+msgid "Sideways Toggle Button"
+msgstr ""
+
+msgctxt "#30644"
+msgid "Upright Toggle Button"
+msgstr ""
+
 msgctxt "#30645"
 msgid "Wiimote IR Mode"
 msgstr "Wiimote IR-läge"
@@ -2070,6 +2166,26 @@ msgctxt "#30648"
 msgid "Wiimote IR Total Pitch"
 msgstr "Wiimote IR total stampning"
 
+msgctxt "#30649"
+msgid "IR Deadzone"
+msgstr ""
+
+msgctxt "#30650"
+msgid "IR Modifier Button"
+msgstr ""
+
+msgctxt "#30651"
+msgid "Swing Modifier Button"
+msgstr ""
+
+msgctxt "#30652"
+msgid "Swing Angle"
+msgstr ""
+
+msgctxt "#30653"
+msgid "Wiimote IR Passthrough"
+msgstr "Wiimote IR-genomsläpp"
+
 msgctxt "#30654"
 msgid "Automatically Import Cheats into RetroArch"
 msgstr "Importera fuskkoder automatiskt till RetroArch"
@@ -2078,10 +2194,6 @@ msgctxt "#30655"
 msgid "Load & Prevent Save Settings"
 msgstr "Läs in och förhindra sparade inställningar"
 
-msgctxt "#30653"
-msgid "Wiimote IR Passthrough"
-msgstr "Wiimote IR-genomsläpp"
-
 msgctxt "#30656"
 msgid "Enable Virtual File System (VFS)"
 msgstr "Aktivera virtuellt filsystem (VFS)"
@@ -2089,6 +2201,14 @@ msgstr "Aktivera virtuellt filsystem (VFS)"
 msgctxt "#30657"
 msgid "Enable Default Mouse Bindings"
 msgstr "Aktivera standardbindningar för mus"
+
+msgctxt "#30658"
+msgid "Popup Logging"
+msgstr ""
+
+msgctxt "#30659"
+msgid "Enable Popup log messages. Some messages will still appear despite setting this to false, such as when dolphin cannot find a suitable Bluetooth USB adapter (if passthrough enabled), as this leads to a failed boot."
+msgstr ""
 
 msgctxt "#30660"
 msgid "Enable DSU Client"
