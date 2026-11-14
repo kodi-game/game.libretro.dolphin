@@ -1,1 +1,1 @@
-dolphin https://github.com/libretro/dolphin/archive/3aac3f052f733f8df2f1616843a4d2e14002ed11.tar.gz
+dolphin https://github.com/libretro/dolphin/archive/0863ee3700978e826b0d95b72d4742e537a7325b.tar.gz

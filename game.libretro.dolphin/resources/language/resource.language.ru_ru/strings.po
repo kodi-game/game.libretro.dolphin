@@ -34,10 +34,6 @@ msgctxt "#30002"
 msgid "Configure CPU emulation, timing, and core system settings."
 msgstr "Настройка эмуляции ЦП, синхронизации и системных параметров ядра."
 
-msgctxt "#30003"
-msgid "Core > CPU Core"
-msgstr "Ядро > Ядро ЦП"
-
 msgctxt "#30004"
 msgid "Select CPU emulation method - JIT provides best performance."
 msgstr "Выберите метод эмуляции ЦП — JIT обеспечивает наилучшую производительность."
@@ -53,10 +49,6 @@ msgstr "JIT64 (рекомендуется)"
 msgctxt "#30007"
 msgid "Cached Interpreter (slower)"
 msgstr "Кэширующий интерпретатор (медленнее)"
-
-msgctxt "#30008"
-msgid "Core > CPU Clock Rate"
-msgstr "Ядро > Тактовая частота ЦП"
 
 msgctxt "#30009"
 msgid "Adjust emulated CPU speed."
@@ -122,10 +114,6 @@ msgctxt "#30024"
 msgid "300%"
 msgstr "300 %"
 
-msgctxt "#30025"
-msgid "Core > Emulation Speed"
-msgstr "Ядро > Скорость эмуляции"
-
 msgctxt "#30026"
 msgid "Set speed limit for emulation."
 msgstr "Задать ограничение скорости эмуляции."
@@ -137,10 +125,6 @@ msgstr "100 % (обычная скорость)"
 msgctxt "#30028"
 msgid "Unlimited"
 msgstr "Без ограничений"
-
-msgctxt "#30029"
-msgid "Core > Dual Core Mode"
-msgstr "Ядро > Двухъядерный режим"
 
 msgctxt "#30030"
 msgid "Enable dual-core CPU emulation. Requires core RESTART."
@@ -154,73 +138,37 @@ msgctxt "#30032"
 msgid "Enabled"
 msgstr "Включено"
 
-msgctxt "#30033"
-msgid "Core > Load Whole Game Into Memory"
-msgstr "Ядро > Загружать всю игру в память"
-
 msgctxt "#30034"
 msgid "Load Whole Game Into Memory. Requires core RESTART."
 msgstr "Загружать всю игру в память. Требуется ПЕРЕЗАПУСК ядра."
-
-msgctxt "#30035"
-msgid "Core > Precision Frame Timing"
-msgstr "Ядро > Точная синхронизация кадров"
 
 msgctxt "#30036"
 msgid "Use busy-wait for more accurate frame timing."
 msgstr "Использовать активное ожидание для более точной синхронизации кадров."
 
-msgctxt "#30037"
-msgid "Core > Fastmem"
-msgstr "Ядро > Fastmem"
-
 msgctxt "#30038"
 msgid "Enable fastmem optimization - which uses memory mapping for faster access."
 msgstr "Включить оптимизацию fastmem — использует отображение памяти для более быстрого доступа."
-
-msgctxt "#30039"
-msgid "Core > Fastmem Arena"
-msgstr "Ядро > Арена fastmem"
 
 msgctxt "#30040"
 msgid "Enable fastmem arena - reserves 12 GiB of virtual memory for super fast access."
 msgstr "Включить арену fastmem — резервирует 12 ГиБ виртуальной памяти для сверхбыстрого доступа."
 
-msgctxt "#30041"
-msgid "Core > Accurate CPU cache"
-msgstr "Ядро > Точный кэш ЦП"
-
 msgctxt "#30042"
 msgid "Enabled - fast, Disabled - guarantees correctness involving cache behaviour."
 msgstr "Включено — быстро, отключено — гарантирует корректность поведения кэша."
-
-msgctxt "#30043"
-msgid "Core > Internal Cheats"
-msgstr "Ядро > Встроенные читы"
 
 msgctxt "#30044"
 msgid "Enable built-in cheat codes. Restart core to take effect."
 msgstr "Включить встроенные коды читов. Перезапустите ядро для применения."
 
-msgctxt "#30045"
-msgid "Core > Skip GameCube BIOS"
-msgstr "Ядро > Пропускать BIOS GameCube"
-
 msgctxt "#30046"
 msgid "Skip the GameCube BIOS animation/menu and start the game directly."
 msgstr "Пропускать анимацию/меню BIOS GameCube и запускать игру напрямую."
 
-msgctxt "#30047"
-msgid "Core > Disc Based Games Boot to Wii Menu"
-msgstr "Ядро > Игры на дисках загружаются в меню Wii"
-
 msgctxt "#30048"
 msgid "When a Wii System Menu is installed in the save location and the game is a disc based game, it will start the Wii Menu with the disc inserted in the drive instead of directly booting the game. Beware: The game region must match the Wii Menu region otherwise the game will not be recognized."
 msgstr "Когда системное меню Wii установлено в каталоге сохранений и игра распространяется на диске, запускается меню Wii со вставленным в привод диском вместо прямой загрузки игры. Внимание: регион игры должен совпадать с регионом меню Wii, иначе игра не будет распознана."
-
-msgctxt "#30049"
-msgid "Core > System Language"
-msgstr "Ядро > Язык системы"
 
 msgctxt "#30050"
 msgid "Set system language."
@@ -266,33 +214,17 @@ msgctxt "#30060"
 msgid "Korean"
 msgstr "Корейский"
 
-msgctxt "#30061"
-msgid "Core > Speed Up Disc Transfer"
-msgstr "Ядро > Ускорить передачу с диска"
-
 msgctxt "#30062"
 msgid "Reduce loading times."
 msgstr "Сократить время загрузки."
-
-msgctxt "#30063"
-msgid "Core > Enable MMU"
-msgstr "Ядро > Включить MMU"
 
 msgctxt "#30064"
 msgid "Enable emulation of the Memory Management Unit."
 msgstr "Включить эмуляцию блока управления памятью."
 
-msgctxt "#30065"
-msgid "Core > Rush Frame Presentation"
-msgstr "Ядро > Ускоренный вывод кадров"
-
 msgctxt "#30066"
 msgid "Enable rushing frame presentation for lower latency."
 msgstr "Включить ускоренный вывод кадров для меньшей задержки."
-
-msgctxt "#30067"
-msgid "Core > Smooth Early Presentation"
-msgstr "Ядро > Плавный ранний вывод"
 
 msgctxt "#30068"
 msgid "Enable smoother early frame presentation timing."
@@ -306,10 +238,6 @@ msgctxt "#30070"
 msgid "Configure audio output and DSP emulation."
 msgstr "Настройка звукового вывода и эмуляции DSP."
 
-msgctxt "#30071"
-msgid "Audio / DSP > DSP HLE"
-msgstr "Аудио / DSP > DSP HLE"
-
 msgctxt "#30072"
 msgid "Choose DSP method - HLE is faster, LLE is more accurate."
 msgstr "Выберите метод DSP — HLE быстрее, LLE точнее."
@@ -322,17 +250,9 @@ msgctxt "#30074"
 msgid "LLE (Accurate)"
 msgstr "LLE (точно)"
 
-msgctxt "#30075"
-msgid "Audio / DSP > DSP JIT"
-msgstr "Аудио / DSP > JIT для DSP"
-
 msgctxt "#30076"
 msgid "Enable JIT for DSP LLE."
 msgstr "Включить JIT для DSP LLE."
-
-msgctxt "#30077"
-msgid "Audio / DSP > Async Audio Callback"
-msgstr "Аудио / DSP > Асинхронный звуковой обратный вызов"
 
 msgctxt "#30078"
 msgid "Use asynchronous audio callbacks."
@@ -358,17 +278,9 @@ msgctxt "#30083"
 msgid "Configure on-screen display and logging."
 msgstr "Настройка экранных сообщений и журналирования."
 
-msgctxt "#30084"
-msgid "Interface > On-Screen Display"
-msgstr "Интерфейс > Экранные сообщения"
-
 msgctxt "#30085"
 msgid "Show OSD messages."
 msgstr "Показывать экранные сообщения."
-
-msgctxt "#30086"
-msgid "Interface > Log Level"
-msgstr "Интерфейс > Уровень журналирования"
 
 msgctxt "#30087"
 msgid "Set log verbosity."
@@ -390,89 +302,45 @@ msgctxt "#30091"
 msgid "Info"
 msgstr "Информация"
 
-msgctxt "#30092"
-msgid "Interface > Logging > Boot"
-msgstr "Интерфейс > Журналирование > Загрузка"
-
 msgctxt "#30093"
 msgid "Enable Boot log messages."
 msgstr "Включить сообщения журнала загрузки."
-
-msgctxt "#30094"
-msgid "Interface > Logging > Core"
-msgstr "Интерфейс > Журналирование > Ядро"
 
 msgctxt "#30095"
 msgid "Enable Core log messages."
 msgstr "Включить сообщения журнала ядра."
 
-msgctxt "#30096"
-msgid "Interface > Logging > Video"
-msgstr "Интерфейс > Журналирование > Видео"
-
 msgctxt "#30097"
 msgid "Enable Video log messages."
 msgstr "Включить сообщения журнала видео."
-
-msgctxt "#30098"
-msgid "Interface > Logging > Common"
-msgstr "Интерфейс > Журналирование > Общие"
 
 msgctxt "#30099"
 msgid "Enable Common log messages."
 msgstr "Включить общие сообщения журнала."
 
-msgctxt "#30100"
-msgid "Interface > Logging > Host GPU"
-msgstr "Интерфейс > Журналирование > ГП хоста"
-
 msgctxt "#30101"
 msgid "Enable Host GPU log messages."
 msgstr "Включить сообщения журнала ГП хоста."
-
-msgctxt "#30102"
-msgid "Interface > Logging > MemMap"
-msgstr "Интерфейс > Журналирование > Карта памяти"
 
 msgctxt "#30103"
 msgid "Enable MemMap log messages."
 msgstr "Включить сообщения журнала карты памяти."
 
-msgctxt "#30104"
-msgid "Interface > Logging > DSP Interface"
-msgstr "Интерфейс > Журналирование > Интерфейс DSP"
-
 msgctxt "#30105"
 msgid "Enable DSP Interface log messages."
 msgstr "Включить сообщения журнала интерфейса DSP."
-
-msgctxt "#30106"
-msgid "Interface > Logging > DSP HLE"
-msgstr "Интерфейс > Журналирование > DSP HLE"
 
 msgctxt "#30107"
 msgid "Enable DSP HLE log messages."
 msgstr "Включить сообщения журнала DSP HLE."
 
-msgctxt "#30108"
-msgid "Interface > Logging > DSP LLE"
-msgstr "Интерфейс > Журналирование > DSP LLE"
-
 msgctxt "#30109"
 msgid "Enable DSP LLE log messages."
 msgstr "Включить сообщения журнала DSP LLE."
 
-msgctxt "#30110"
-msgid "Interface > Logging > DSP MAIL"
-msgstr "Интерфейс > Журналирование > DSP MAIL"
-
 msgctxt "#30111"
 msgid "Enable DSP MAIL log messages."
 msgstr "Включить сообщения журнала DSP MAIL."
-
-msgctxt "#30112"
-msgid "Interface > Enable debugging"
-msgstr "Интерфейс > Включить отладку"
 
 msgctxt "#30113"
 msgid "Enable the debugger."
@@ -485,10 +353,6 @@ msgstr "Конфигурация системы — GameCube"
 msgctxt "#30115"
 msgid "Configure Gamecube system settings."
 msgstr "Настройка системных параметров GameCube."
-
-msgctxt "#30116"
-msgid "System Configuration (GC) > SP1 Device"
-msgstr "Конфигурация системы (GC) > Устройство SP1"
 
 msgctxt "#30117"
 msgid "Select the device connected to the GameCube SP1 slot."
@@ -530,17 +394,9 @@ msgctxt "#30126"
 msgid "Baseboard"
 msgstr "Системная плата"
 
-msgctxt "#30127"
-msgid "System Configuration (GC) > GameCube Microphone"
-msgstr "Конфигурация системы (GC) > Микрофон GameCube"
-
 msgctxt "#30128"
 msgid "Emulate the official GameCube microphone accessory. Restart core after changing this option."
 msgstr "Эмулировать официальный аксессуар-микрофон GameCube. Перезапустите ядро после изменения этого параметра."
-
-msgctxt "#30129"
-msgid "System Configuration (GC) > Microphone Button"
-msgstr "Конфигурация системы (GC) > Кнопка микрофона"
 
 msgctxt "#30130"
 msgid "Button to hold or press to activate the microphone input. Selecting OFF disables microphone activation."
@@ -602,33 +458,17 @@ msgctxt "#30144"
 msgid "Configure Wii system settings."
 msgstr "Настройка системных параметров Wii."
 
-msgctxt "#30145"
-msgid "System Configuration > Widescreen (Wii)"
-msgstr "Конфигурация системы > Широкоэкранный режим (Wii)"
-
 msgctxt "#30146"
 msgid "Enable widescreen for Wii."
 msgstr "Включить широкоэкранный режим для Wii."
-
-msgctxt "#30147"
-msgid "System Configuration > Progressive Scan"
-msgstr "Конфигурация системы > Прогрессивная развёртка"
 
 msgctxt "#30148"
 msgid "Enable progressive scan."
 msgstr "Включить прогрессивную развёртку."
 
-msgctxt "#30149"
-msgid "System Configuration > PAL60 Mode"
-msgstr "Конфигурация системы > Режим PAL60"
-
 msgctxt "#30150"
 msgid "Enable 60Hz for PAL games."
 msgstr "Включить 60 Гц для игр PAL."
-
-msgctxt "#30151"
-msgid "System Configuration > Sensor Bar Position"
-msgstr "Конфигурация системы > Положение сенсорной панели"
 
 msgctxt "#30152"
 msgid "Set Wiimote sensor bar position."
@@ -642,57 +482,29 @@ msgctxt "#30154"
 msgid "Top"
 msgstr "Сверху"
 
-msgctxt "#30155"
-msgid "System Configuration > Controller Rumble"
-msgstr "Конфигурация системы > Вибрация контроллера"
-
 msgctxt "#30156"
 msgid "Enable rumble feedback."
 msgstr "Включить вибрацию."
-
-msgctxt "#30157"
-msgid "System Configuration > Wiimote Continuous Scanning"
-msgstr "Конфигурация системы > Непрерывное сканирование Wiimote"
 
 msgctxt "#30158"
 msgid "Continuously scan for Wiimotes."
 msgstr "Непрерывно искать Wiimote."
 
-msgctxt "#30159"
-msgid "System Configuration > Alt GC Ports (Wii)"
-msgstr "Конфигурация системы > Альтернативные порты GC (Wii)"
-
 msgctxt "#30160"
 msgid "Use ports 5-8 for GameCube controllers in Wii mode."
 msgstr "Использовать порты 5–8 для контроллеров GameCube в режиме Wii."
-
-msgctxt "#30161"
-msgid "System Configuration > Bluetooth passthrough mode"
-msgstr "Конфигурация системы > Режим сквозной передачи Bluetooth"
 
 msgctxt "#30162"
 msgid "Pass all traffic directly to the host's Bluetooth adapter. Press F12 to begin the sync process."
 msgstr "Передавать весь трафик напрямую в Bluetooth-адаптер хоста. Нажмите F12 для начала процесса синхронизации."
 
-msgctxt "#30163"
-msgid "System Configuration > Wii Speak"
-msgstr "Конфигурация системы > Wii Speak"
-
 msgctxt "#30164"
 msgid "Emulate the Wii Speak microphone. Restart when changing this option."
 msgstr "Эмулировать микрофон Wii Speak. Перезапустите при изменении этого параметра."
 
-msgctxt "#30165"
-msgid "Audio > Devices > Wii Speak Muted"
-msgstr "Аудио > Устройства > Wii Speak без звука"
-
 msgctxt "#30166"
 msgid "Mute or unmute the Wii Speak microphone."
 msgstr "Включить или отключить звук микрофона Wii Speak."
-
-msgctxt "#30167"
-msgid "System Configuration > Logitech USB Microphone"
-msgstr "Конфигурация системы > USB-микрофон Logitech"
 
 msgctxt "#30168"
 msgid "Emulate the Logitech USB microphone. Restart when changing this option."
@@ -706,10 +518,6 @@ msgctxt "#30170"
 msgid "Configure rendering backend and quality settings."
 msgstr "Настройка бэкенда отрисовки и параметров качества."
 
-msgctxt "#30171"
-msgid "Graphics > Settings > Graphics Backend"
-msgstr "Графика > Настройки > Бэкенд графики"
-
 msgctxt "#30172"
 msgid "Select rendering backend."
 msgstr "Выберите бэкенд отрисовки."
@@ -718,17 +526,9 @@ msgctxt "#30173"
 msgid "Hardware"
 msgstr "Аппаратный"
 
-msgctxt "#30174"
-msgid "Graphics > Settings > Widescreen Hack"
-msgstr "Графика > Настройки > Хак широкоэкранного режима"
-
 msgctxt "#30175"
 msgid "Force 16:9 rendering."
 msgstr "Принудительно отрисовывать в 16:9."
-
-msgctxt "#30176"
-msgid "Graphics > Settings > Aspect Ratio"
-msgstr "Графика > Настройки > Соотношение сторон"
 
 msgctxt "#30177"
 msgid "Control how the game's image is scaled."
@@ -762,17 +562,9 @@ msgctxt "#30184"
 msgid "Raw"
 msgstr "Необработанный"
 
-msgctxt "#30185"
-msgid "Graphics > Settings > Crop Overscan"
-msgstr "Графика > Настройки > Обрезать вылеты развёртки"
-
 msgctxt "#30186"
 msgid "Report standard TV output resolution to the frontend (NTSC: 480, PAL: 576). Recommended for CRT displays with SwitchRes."
 msgstr "Сообщать фронтенду стандартное разрешение телевизионного вывода (NTSC: 480, PAL: 576). Рекомендуется для ЭЛТ-дисплеев со SwitchRes."
-
-msgctxt "#30187"
-msgid "Graphics > Settings > Internal Resolution"
-msgstr "Графика > Настройки > Внутреннее разрешение"
 
 msgctxt "#30188"
 msgid "Multiply native resolution."
@@ -826,10 +618,6 @@ msgctxt "#30200"
 msgid "12x Native (7680x6336) for 8K"
 msgstr "12x нативное (7680x6336) для 8K"
 
-msgctxt "#30201"
-msgid "Graphics > Settings > Shader Compilation"
-msgstr "Графика > Настройки > Компиляция шейдеров"
-
 msgctxt "#30202"
 msgid "Control shader compilation."
 msgstr "Управлять компиляцией шейдеров."
@@ -850,17 +638,9 @@ msgctxt "#30206"
 msgid "Async (UberShaders)"
 msgstr "Асинхронный (UberShaders)"
 
-msgctxt "#30207"
-msgid "Graphics > Settings > Wait for Shaders"
-msgstr "Графика > Настройки > Ждать шейдеры"
-
 msgctxt "#30208"
 msgid "Precompile shaders before starting."
 msgstr "Предварительно компилировать шейдеры перед запуском."
-
-msgctxt "#30209"
-msgid "Graphics > Settings > Anti-Aliasing"
-msgstr "Графика > Настройки > Сглаживание"
 
 msgctxt "#30210"
 msgid "Reduce jagged edges."
@@ -890,10 +670,6 @@ msgctxt "#30216"
 msgid "8x SSAA"
 msgstr "8x SSAA"
 
-msgctxt "#30217"
-msgid "Graphics > Settings > Texture Cache Accuracy"
-msgstr "Графика > Настройки > Точность кэша текстур"
-
 msgctxt "#30218"
 msgid "Texture cache safety level."
 msgstr "Уровень безопасности кэша текстур."
@@ -910,41 +686,21 @@ msgctxt "#30221"
 msgid "Safe"
 msgstr "Безопасный"
 
-msgctxt "#30222"
-msgid "Graphics > Settings > GPU Texture Decoding"
-msgstr "Графика > Настройки > Декодирование текстур на ГП"
-
 msgctxt "#30223"
 msgid "Decode textures on GPU."
 msgstr "Декодировать текстуры на ГП."
-
-msgctxt "#30224"
-msgid "Graphics > Settings > Pixel Lighting"
-msgstr "Графика > Настройки > Пиксельное освещение"
 
 msgctxt "#30225"
 msgid "Enable per-pixel lighting calculations instead of per-vertex."
 msgstr "Включить попиксельные вычисления освещения вместо повершинных."
 
-msgctxt "#30226"
-msgid "Graphics > Settings > Fast Depth Calculation"
-msgstr "Графика > Настройки > Быстрый расчёт глубины"
-
 msgctxt "#30227"
 msgid "Use faster depth calculation."
 msgstr "Использовать более быстрый расчёт глубины."
 
-msgctxt "#30228"
-msgid "Graphics > Settings > Disable Fog"
-msgstr "Графика > Настройки > Отключить туман"
-
 msgctxt "#30229"
 msgid "Disable fog rendering effects. May improve performance but reduces visual accuracy."
 msgstr "Отключить эффекты отрисовки тумана. Может повысить производительность, но снижает визуальную точность."
-
-msgctxt "#30230"
-msgid "Graphics > Settings > Enable Mods"
-msgstr "Графика > Настройки > Включить моды"
 
 msgctxt "#30231"
 msgid "Loads graphic mods from User/Load/GraphicsMods."
@@ -957,10 +713,6 @@ msgstr "Графика > Улучшения"
 msgctxt "#30233"
 msgid "Configure texture filtering and visual enhancements."
 msgstr "Настройка фильтрации текстур и визуальных улучшений."
-
-msgctxt "#30234"
-msgid "Graphics > Enhancements > Texture Filtering"
-msgstr "Графика > Улучшения > Фильтрация текстур"
 
 msgctxt "#30235"
 msgid "Override texture filtering."
@@ -977,10 +729,6 @@ msgstr "Ближайший (резкий)"
 msgctxt "#30238"
 msgid "Linear (Smooth)"
 msgstr "Линейный (сглаженный)"
-
-msgctxt "#30239"
-msgid "Graphics > Enhancements > Anisotropic Filtering"
-msgstr "Графика > Улучшения > Анизотропная фильтрация"
 
 msgctxt "#30240"
 msgid "Improve texture quality at angles."
@@ -1006,25 +754,13 @@ msgctxt "#30245"
 msgid "16x"
 msgstr "16x"
 
-msgctxt "#30246"
-msgid "Graphics > Enhancements > Load Custom Textures"
-msgstr "Графика > Улучшения > Загружать пользовательские текстуры"
-
 msgctxt "#30247"
 msgid "Load high-res texture packs."
 msgstr "Загружать наборы текстур высокого разрешения."
 
-msgctxt "#30248"
-msgid "Graphics > Enhancements > Prefetch Custom Textures"
-msgstr "Графика > Улучшения > Предзагрузка пользовательских текстур"
-
 msgctxt "#30249"
 msgid "Preload custom textures."
 msgstr "Предварительно загружать пользовательские текстуры."
-
-msgctxt "#30250"
-msgid "Graphics > Enhancements > Output Resampling"
-msgstr "Графика > Улучшения > Передискретизация вывода"
 
 msgctxt "#30251"
 msgid "Select the resampling filter used when scaling the final image."
@@ -1054,33 +790,17 @@ msgctxt "#30257"
 msgid "Area Sampling"
 msgstr "Площадная выборка"
 
-msgctxt "#30258"
-msgid "Graphics > Enhancements > Force True Color"
-msgstr "Графика > Улучшения > Принудительный истинный цвет"
-
 msgctxt "#30259"
 msgid "Disable dithering and force 24-bit color output instead of 18-bit."
 msgstr "Отключить дизеринг и принудительно использовать 24-битный цвет вместо 18-битного."
-
-msgctxt "#30260"
-msgid "Graphics > Enhancements > Disable Copy Filter"
-msgstr "Графика > Улучшения > Отключить фильтр копирования"
 
 msgctxt "#30261"
 msgid "Disable the GameCube/Wii copy filter. Removes blur from some games but may reduce accuracy."
 msgstr "Отключить фильтр копирования GameCube/Wii. Убирает размытие в некоторых играх, но может снизить точность."
 
-msgctxt "#30262"
-msgid "Graphics > Enhancements > HDR Output"
-msgstr "Графика > Улучшения > Вывод HDR"
-
 msgctxt "#30263"
 msgid "Enable High Dynamic Range output when supported by the graphics backend and display."
 msgstr "Включить вывод расширенного динамического диапазона (HDR), если это поддерживается графическим сервером и дисплеем."
-
-msgctxt "#30264"
-msgid "Graphics > Enhancements > Arbitrary Mipmap Detection"
-msgstr "Графика > Улучшения > Обнаружение произвольных мипмапов"
 
 msgctxt "#30265"
 msgid "Enable detection of arbitrary mipmaps. Improves accuracy in some games but may reduce performance."
@@ -1094,25 +814,13 @@ msgctxt "#30267"
 msgid "Configure accuracy vs performance tradeoffs."
 msgstr "Настройка компромисса между точностью и производительностью."
 
-msgctxt "#30268"
-msgid "Graphics > Hacks > EFB Access from CPU"
-msgstr "Графика > Хитрости > Доступ к EFB со стороны ЦП"
-
 msgctxt "#30269"
 msgid "Allow CPU EFB access. Required for some games but slow."
 msgstr "Разрешить доступ ЦП к EFB. Требуется для некоторых игр, но замедляет работу."
 
-msgctxt "#30270"
-msgid "Graphics > Hacks > EFB Access Defer Invalidation"
-msgstr "Графика > Хитрости > Отложенная инвалидация доступа к EFB"
-
 msgctxt "#30271"
 msgid "Defer EFB cache invalidation."
 msgstr "Отложить инвалидацию кэша EFB."
-
-msgctxt "#30272"
-msgid "Graphics > Hacks > EFB Access Tile Size"
-msgstr "Графика > Хитрости > Размер тайла доступа к EFB"
 
 msgctxt "#30273"
 msgid "EFB access granularity."
@@ -1142,113 +850,57 @@ msgctxt "#30279"
 msgid "64 (default)"
 msgstr "64 (по умолчанию)"
 
-msgctxt "#30280"
-msgid "Graphics > Hacks > Bounding Box"
-msgstr "Графика > Хитрости > Ограничивающий параллелепипед"
-
 msgctxt "#30281"
 msgid "Emulate bounding box hardware. Required for Paper Mario TTYD."
 msgstr "Эмулировать аппаратный ограничивающий параллелепипед. Требуется для Paper Mario TTYD."
-
-msgctxt "#30282"
-msgid "Graphics > Hacks > Force Progressive"
-msgstr "Графика > Хитрости > Принудительная прогрессивная развёртка"
 
 msgctxt "#30283"
 msgid "Force progressive scan."
 msgstr "Принудительно использовать прогрессивную развёртку."
 
-msgctxt "#30284"
-msgid "Graphics > Hacks > Skip EFB Copy to RAM"
-msgstr "Графика > Хитрости > Пропускать копирование EFB в ОЗУ"
-
 msgctxt "#30285"
 msgid "Store EFB in texture memory."
 msgstr "Хранить EFB в памяти текстур."
-
-msgctxt "#30286"
-msgid "Graphics > Hacks > Skip XFB Copy to RAM"
-msgstr "Графика > Хитрости > Пропускать копирование XFB в ОЗУ"
 
 msgctxt "#30287"
 msgid "Store XFB in texture memory."
 msgstr "Хранить XFB в памяти текстур."
 
-msgctxt "#30288"
-msgid "Graphics > Hacks > Disable EFB to VRAM"
-msgstr "Графика > Хитрости > Отключить копирование EFB в видеопамять"
-
 msgctxt "#30289"
 msgid "Disable EFB VRAM copies."
 msgstr "Отключить копирование EFB в видеопамять."
-
-msgctxt "#30290"
-msgid "Graphics > Hacks > Defer EFB Copies"
-msgstr "Графика > Хитрости > Отложить копирование EFB"
 
 msgctxt "#30291"
 msgid "Defer EFB copies until needed."
 msgstr "Отложить копирование EFB до необходимости."
 
-msgctxt "#30292"
-msgid "Graphics > Hacks > Immediate XFB"
-msgstr "Графика > Хитрости > Немедленный XFB"
-
 msgctxt "#30293"
 msgid "Display XFB immediately."
 msgstr "Отображать XFB немедленно."
-
-msgctxt "#30294"
-msgid "Graphics > Hacks > Skip Duplicate Frames"
-msgstr "Графика > Хитрости > Пропускать дублирующиеся кадры"
 
 msgctxt "#30295"
 msgid "Don't present duplicate frames."
 msgstr "Не отображать дублирующиеся кадры."
 
-msgctxt "#30296"
-msgid "Graphics > Hacks > Early XFB Output"
-msgstr "Графика > Хитрости > Ранний вывод XFB"
-
 msgctxt "#30297"
 msgid "Output XFB early."
 msgstr "Выводить XFB заранее."
-
-msgctxt "#30298"
-msgid "Graphics > Hacks > EFB Scaled Copy"
-msgstr "Графика > Хитрости > Масштабированное копирование EFB"
 
 msgctxt "#30299"
 msgid "Scale EFB copy by IR."
 msgstr "Масштабировать копирование EFB по внутреннему разрешению."
 
-msgctxt "#30300"
-msgid "Graphics > Hacks > EFB Emulate Format Changes"
-msgstr "Графика > Хитрости > Эмулировать смену формата EFB"
-
 msgctxt "#30301"
 msgid "Emulate EFB format changes (needed for some effects)."
 msgstr "Эмулировать смену формата EFB (требуется для некоторых эффектов)."
-
-msgctxt "#30302"
-msgid "Graphics > Hacks > Vertex Rounding"
-msgstr "Графика > Хитрости > Округление вершин"
 
 msgctxt "#30303"
 msgid "Round vertex positions to avoid gaps."
 msgstr "Округлять позиции вершин, чтобы избежать разрывов."
 
-msgctxt "#30304"
-msgid "Graphics > Hacks > VI Skip"
-msgstr "Графика > Хитрости > Пропуск VI"
-
 msgctxt "#30305"
 msgid "Skip VI updates to improve performance."
 msgstr "Пропускать обновления VI для повышения производительности."
-
-msgctxt "#30306"
-msgid "Graphics > Hacks > Fast Texture Sampling"
-msgstr "Графика > Хитрости > Быстрая выборка текстур"
 
 msgctxt "#30307"
 msgid "Use faster but less accurate texture sampling."
@@ -1262,10 +914,6 @@ msgctxt "#30309"
 msgid "Configure game specific settings."
 msgstr "Настройка параметров для конкретных игр."
 
-msgctxt "#30310"
-msgid "Graphics > Game Specific > Performance Queries"
-msgstr "Графика > Для конкретных игр > Запросы производительности"
-
 msgctxt "#30311"
 msgid "Enable performance queries."
 msgstr "Включить запросы производительности."
@@ -1278,10 +926,6 @@ msgctxt "#30313"
 msgid "Configure Wiimote infrared pointer, gyro and swing settings."
 msgstr "Настройка инфракрасного указателя, гироскопа и взмахов Wii Remote."
 
-msgctxt "#30314"
-msgid "WiiMote Sideways > Toggle Button"
-msgstr "Wii Remote горизонтально > Кнопка переключения"
-
 msgctxt "#30315"
 msgid "Button used to toggle sideways mode. Can be disabled."
 msgstr "Кнопка для переключения горизонтального режима. Можно отключить."
@@ -1290,17 +934,9 @@ msgctxt "#30316"
 msgid "L3 (Default)"
 msgstr "L3 (по умолчанию)"
 
-msgctxt "#30317"
-msgid "WiiMote Upright > Toggle Button"
-msgstr "Wii Remote вертикально > Кнопка переключения"
-
 msgctxt "#30318"
 msgid "Button used to toggle upright mode. Can be disabled."
 msgstr "Кнопка для переключения вертикального режима. Можно отключить."
-
-msgctxt "#30319"
-msgid "Wiimote IR > Wiimote IR Mode"
-msgstr "ИК-указатель Wii Remote > Режим ИК-указателя"
 
 msgctxt "#30320"
 msgid "Control method for Wiimote pointer."
@@ -1317,10 +953,6 @@ msgstr "Правый стик управляет указателем (абсо�
 msgctxt "#30323"
 msgid "Mouse controls pointer"
 msgstr "Мышь управляет указателем"
-
-msgctxt "#30324"
-msgid "Wiimote IR > Wiimote IR Vertical Offset"
-msgstr "ИК-указатель Wii Remote > Вертикальное смещение ИК-указателя"
 
 msgctxt "#30325"
 msgid "Adjust vertical center of Wiimote pointer."
@@ -1714,10 +1346,6 @@ msgctxt "#30422"
 msgid "9"
 msgstr "9"
 
-msgctxt "#30423"
-msgid "Wiimote IR > Wiimote IR Total Yaw"
-msgstr "ИК-указатель Wii Remote > Общий рыскание ИК-указателя"
-
 msgctxt "#30424"
 msgid "Horizontal field of view for Wiimote pointer."
 msgstr "Горизонтальный угол обзора для указателя Wii Remote."
@@ -1930,17 +1558,9 @@ msgctxt "#30476"
 msgid "0"
 msgstr "0"
 
-msgctxt "#30477"
-msgid "Wiimote IR > Wiimote IR Total Pitch"
-msgstr "ИК-указатель Wii Remote > Общий тангаж ИК-указателя"
-
 msgctxt "#30478"
 msgid "Vertical field of view for Wiimote pointer."
 msgstr "Вертикальный угол обзора для указателя Wii Remote."
-
-msgctxt "#30479"
-msgid "Wiimote IR > Wiimote IR Deadzone"
-msgstr "ИК-указатель Wii Remote > Мёртвая зона ИК-указателя"
 
 msgctxt "#30480"
 msgid "Amount of small IR‑cursor movement to ignore (0–50%)."
@@ -1950,10 +1570,6 @@ msgctxt "#30481"
 msgid "0% (No Deadzone)"
 msgstr "0 % (без мёртвой зоны)"
 
-msgctxt "#30482"
-msgid "WiiMote IR > Modifier Button"
-msgstr "ИК-указатель Wii Remote > Кнопка-модификатор"
-
 msgctxt "#30483"
 msgid "Button used as a modifier for IR control. With no modifier selected, IR is always active with right thumbstick."
 msgstr "Кнопка, используемая как модификатор для управления ИК-указателем. Если модификатор не выбран, ИК-указатель всегда активен при использовании правого стика."
@@ -1962,17 +1578,9 @@ msgctxt "#30484"
 msgid "None (Default)"
 msgstr "Нет (по умолчанию)"
 
-msgctxt "#30485"
-msgid "WiiMote Swing > Modifier Button"
-msgstr "Взмах Wii Remote > Кнопка-модификатор"
-
 msgctxt "#30486"
 msgid "Button to hold while using right thumbstick to activate swing. OFF turns off swing. Selecting none will allow free use of right thumb stick to swing (It will automatically filter out L3)."
 msgstr "Кнопка, которую нужно удерживать при использовании правого стика для активации взмаха. OFF отключает взмах. Выбор «нет» позволит свободно использовать правый стик для взмаха (L3 будет автоматически отфильтрован)."
-
-msgctxt "#30487"
-msgid "Wiimote Swing > Angle"
-msgstr "Взмах Wii Remote > Угол"
 
 msgctxt "#30488"
 msgid "Rotation applied at the extremities of a swing (1-180°)."
@@ -2014,10 +1622,6 @@ msgctxt "#30497"
 msgid "180"
 msgstr "180"
 
-msgctxt "#30498"
-msgid "Wiimote IR > Wiimote IR Passthrough"
-msgstr "ИК-указатель Wii Remote > Сквозная передача ИК-указателя"
-
 msgctxt "#30499"
 msgid "Take the Wiimote camera's view of the sensor bar straight from the frontend, instead of deriving it from a cursor position. The frontend supplies up to four IR objects on pointer indices 1-4; Wiimote IR Mode, Total Yaw, Total Pitch and Vertical Offset are all bypassed. For frontends that know the real geometry (a VR room, a tracked light gun) this is exact, and it carries roll and distance, which a cursor cannot. Leave off for a mouse or a gamepad."
 msgstr "Брать изображение сенсорной панели с камеры Wii Remote напрямую из фронтенда, а не вычислять его из позиции курсора. Фронтенд передаёт до четырёх ИК-объектов с индексами указателя 1–4; режим ИК-указателя Wii Remote, общий рыскание, общий тангаж и вертикальное смещение при этом игнорируются. Для фронтендов, которые знают реальную геометрию (VR-комната, отслеживаемый световой пистолет), это точно и передаёт крен и расстояние, чего курсор не может. Оставьте выключенным для мыши или геймпада."
@@ -2030,33 +1634,17 @@ msgctxt "#30501"
 msgid "Configure settings which are specific to the RetroArch core and do not exist in dolphin standlone."
 msgstr "Настройка параметров, специфичных для ядра RetroArch и отсутствующих в автономном Dolphin."
 
-msgctxt "#30502"
-msgid "RetroArch Core > Automatically Import Cheats into RetroArch"
-msgstr "Ядро RetroArch > Автоматически импортировать читы в RetroArch"
-
 msgctxt "#30503"
 msgid "Import dolphin ini files into RetroArch. Restart core to take effect."
 msgstr "Импортировать ini-файлы Dolphin в RetroArch. Для применения перезапустите ядро."
-
-msgctxt "#30504"
-msgid "RetroArch core > Load & Prevent Save Settings"
-msgstr "Ядро RetroArch > Загружать и запрещать сохранение настроек"
 
 msgctxt "#30505"
 msgid "Choose whether to load core settings from GCPad.ini/WiimoteNew.ini and also prevent saving to them. Core options may no longer be reflected correctly in RetroArch interface. Editing ini files incorrectly will likely crash the emulator."
 msgstr "Выберите, загружать ли настройки ядра из GCPad.ini/WiimoteNew.ini, а также запретить сохранение в них. Параметры ядра могут перестать корректно отображаться в интерфейсе RetroArch. Неправильное редактирование ini-файлов, скорее всего, приведёт к сбою эмулятора."
 
-msgctxt "#30506"
-msgid "RetroArch core > Enable Virtual File System (VFS)"
-msgstr "Ядро RetroArch > Включить виртуальную файловую систему (VFS)"
-
 msgctxt "#30507"
 msgid "Enable VFS for SAF/SMB etc. Requires core RESTART. This feature is NEW and EXPERIMENTAL. Backup your saves regularly."
 msgstr "Включить VFS для SAF/SMB и т. п. Требуется ПЕРЕЗАПУСК ядра. Эта функция НОВАЯ и ЭКСПЕРИМЕНТАЛЬНАЯ. Регулярно создавайте резервные копии сохранений."
-
-msgctxt "#30508"
-msgid "RetroArch core > Enable Default Mouse Bindings"
-msgstr "Ядро RetroArch > Включить привязки мыши по умолчанию"
 
 msgctxt "#30509"
 msgid "Enable default Mouse Bindings, disable for more control on bindings."
@@ -2070,49 +1658,25 @@ msgctxt "#30511"
 msgid "Configure DSU client for DualShock motion data."
 msgstr "Настройка клиента DSU для данных о движении DualShock."
 
-msgctxt "#30512"
-msgid "Wiimote (DSU) > Enable DSU Client"
-msgstr "Wii Remote (DSU) > Включить клиент DSU"
-
 msgctxt "#30513"
 msgid "Enable DSU client for DualShock motion data. Restart core to take effect."
 msgstr "Включить клиент DSU для данных о движении DualShock. Для применения перезапустите ядро."
-
-msgctxt "#30514"
-msgid "Wiimote (DSU) > Server IP Octet 1"
-msgstr "Wii Remote (DSU) > 1-й октет IP-адреса сервера"
 
 msgctxt "#30515"
 msgid "First octet of DSU server IP. e.g. for 192.168.1.10 set this to 192."
 msgstr "Первый октет IP-адреса сервера DSU. Например, для 192.168.1.10 укажите 192."
 
-msgctxt "#30516"
-msgid "Wiimote (DSU) > Server IP Octet 2"
-msgstr "Wii Remote (DSU) > 2-й октет IP-адреса сервера"
-
 msgctxt "#30517"
 msgid "Second octet of DSU server IP. e.g. for 192.168.1.10 set this to 168."
 msgstr "Второй октет IP-адреса сервера DSU. Например, для 192.168.1.10 укажите 168."
-
-msgctxt "#30518"
-msgid "Wiimote (DSU) > Server IP Octet 3"
-msgstr "Wii Remote (DSU) > 3-й октет IP-адреса сервера"
 
 msgctxt "#30519"
 msgid "Third octet of DSU server IP. e.g. for 192.168.1.10 set this to 1."
 msgstr "Третий октет IP-адреса сервера DSU. Например, для 192.168.1.10 укажите 1."
 
-msgctxt "#30520"
-msgid "Wiimote (DSU) > Server IP Octet 4"
-msgstr "Wii Remote (DSU) > 4-й октет IP-адреса сервера"
-
 msgctxt "#30521"
 msgid "Fourth octet of DSU server IP. e.g. for 192.168.1.10 set this to 10."
 msgstr "Четвёртый октет IP-адреса сервера DSU. Например, для 192.168.1.10 укажите 10."
-
-msgctxt "#30522"
-msgid "Wiimote (DSU) > Server Port"
-msgstr "Wii Remote (DSU) > Порт сервера"
 
 msgctxt "#30523"
 msgid "UDP port of DSU server. Default is 26760."
@@ -2142,10 +1706,6 @@ msgctxt "#30529"
 msgid "26765"
 msgstr "26765"
 
-msgctxt "#30530"
-msgid "Graphics > Settings > VR Mode"
-msgstr "Графика > Настройки > Режим VR"
-
 msgctxt "#30531"
 msgid "'Stereoscopic' shows the game on a virtual screen in 3D. 'Immersive' also turns the game camera with your head. Expect odd things in immersive mode. Requires a frontend with VR support."
 msgstr "'Stereoscopic' показывает игру на виртуальном экране в 3D. 'Immersive' также поворачивает игровую камеру вместе с вашей головой. В иммерсивном режиме ожидайте странностей. Требуется фронтенд с поддержкой VR."
@@ -2157,10 +1717,6 @@ msgstr "Stereoscopic"
 msgctxt "#30533"
 msgid "Immersive (Free Look)"
 msgstr "Immersive (Free Look)"
-
-msgctxt "#30534"
-msgid "WiiMote > Device"
-msgstr "WiiMote > Устройство"
 
 msgctxt "#30535"
 msgid "Device to use on every Wii port, in place of the one set for that port. Real WiiMote plays with Wiimotes connected to this device, for example through a DolphinBar, and scans for them continuously."
@@ -2218,13 +1774,817 @@ msgctxt "#30548"
 msgid "GameCube Controller"
 msgstr "GameCube Controller"
 
-msgctxt "#30549"
-msgid "Interface > Logging > Popups"
-msgstr "Интерфейс > Журналирование > Всплывающие сообщения"
+msgctxt "#30553"
+msgid "Emulation Speed"
+msgstr "Скорость эмуляции"
 
-msgctxt "#30550"
-msgid "Enable Popup log messages."
-msgstr "Включить всплывающие сообщения журнала."
+msgctxt "#30554"
+msgid "Dual Core Mode"
+msgstr "Двухъядерный режим"
+
+msgctxt "#30557"
+msgid "Load Whole Game Into Memory"
+msgstr "Загружать всю игру в память"
+
+msgctxt "#30559"
+msgid "Fastmem"
+msgstr "Fastmem"
+
+msgctxt "#30561"
+msgid "Accurate CPU cache"
+msgstr "Точный кэш ЦП"
+
+msgctxt "#30562"
+msgid "Internal Cheats"
+msgstr "Встроенные читы"
+
+msgctxt "#30563"
+msgid "Skip GameCube BIOS"
+msgstr "Пропускать BIOS GameCube"
+
+msgctxt "#30565"
+msgid "System Language"
+msgstr "Язык системы"
+
+msgctxt "#30566"
+msgid "Speed Up Disc Transfer"
+msgstr "Ускорить передачу с диска"
+
+msgctxt "#30567"
+msgid "Enable MMU"
+msgstr "Включить MMU"
+
+msgctxt "#30568"
+msgid "Rush Frame Presentation"
+msgstr "Ускоренный вывод кадров"
+
+msgctxt "#30569"
+msgid "Smooth Early Presentation"
+msgstr "Плавный ранний вывод"
+
+msgctxt "#30573"
+msgid "On-Screen Display"
+msgstr "Экранные сообщения"
+
+msgctxt "#30574"
+msgid "Log Level"
+msgstr "Уровень журналирования"
+
+msgctxt "#30585"
+msgid "Enable debugging"
+msgstr "Включить отладку"
+
+msgctxt "#30570"
+msgid "DSP HLE"
+msgstr "DSP HLE"
+
+msgctxt "#30571"
+msgid "DSP JIT"
+msgstr "JIT для DSP"
+
+msgctxt "#30572"
+msgid "Async Audio Callback"
+msgstr "Асинхронный звуковой обратный вызов"
+
+msgctxt "#30586"
+msgid "SP1 Device"
+msgstr "Устройство SP1"
+
+msgctxt "#30587"
+msgid "GameCube Microphone"
+msgstr "Микрофон GameCube"
+
+msgctxt "#30588"
+msgid "Microphone Button"
+msgstr "Кнопка микрофона"
+
+msgctxt "#30589"
+msgid "Widescreen (Wii)"
+msgstr "Широкоэкранный режим (Wii)"
+
+msgctxt "#30590"
+msgid "Progressive Scan"
+msgstr "Прогрессивная развёртка"
+
+msgctxt "#30591"
+msgid "PAL60 Mode"
+msgstr "Режим PAL60"
+
+msgctxt "#30592"
+msgid "Sensor Bar Position"
+msgstr "Положение сенсорной панели"
+
+msgctxt "#30593"
+msgid "Controller Rumble"
+msgstr "Вибрация контроллера"
+
+msgctxt "#30594"
+msgid "Wiimote Continuous Scanning"
+msgstr "Непрерывное сканирование Wiimote"
+
+msgctxt "#30595"
+msgid "Alt GC Ports (Wii)"
+msgstr "Альтернативные порты GC (Wii)"
+
+msgctxt "#30596"
+msgid "Bluetooth passthrough mode"
+msgstr "Режим сквозной передачи Bluetooth"
+
+msgctxt "#30597"
+msgid "Wii Speak"
+msgstr "Wii Speak"
+
+msgctxt "#30598"
+msgid "Wii Speak Muted"
+msgstr "Wii Speak без звука"
+
+msgctxt "#30599"
+msgid "Logitech USB Microphone"
+msgstr "USB-микрофон Logitech"
+
+msgctxt "#30600"
+msgid "Graphics Backend"
+msgstr "Бэкенд графики"
+
+msgctxt "#30601"
+msgid "Widescreen Hack"
+msgstr "Хак широкоэкранного режима"
+
+msgctxt "#30602"
+msgid "Aspect Ratio"
+msgstr "Соотношение сторон"
+
+msgctxt "#30603"
+msgid "Crop Overscan"
+msgstr "Обрезать вылеты развёртки"
+
+msgctxt "#30604"
+msgid "Internal Resolution"
+msgstr "Внутреннее разрешение"
+
+msgctxt "#30605"
+msgid "Shader Compilation"
+msgstr "Компиляция шейдеров"
+
+msgctxt "#30606"
+msgid "Wait for Shaders"
+msgstr "Ждать шейдеры"
+
+msgctxt "#30607"
+msgid "Anti-Aliasing"
+msgstr "Сглаживание"
+
+msgctxt "#30608"
+msgid "Texture Cache Accuracy"
+msgstr "Точность кэша текстур"
+
+msgctxt "#30609"
+msgid "GPU Texture Decoding"
+msgstr "Декодирование текстур на ГП"
+
+msgctxt "#30610"
+msgid "Pixel Lighting"
+msgstr "Пиксельное освещение"
+
+msgctxt "#30611"
+msgid "Fast Depth Calculation"
+msgstr "Быстрый расчёт глубины"
+
+msgctxt "#30612"
+msgid "Disable Fog"
+msgstr "Отключить туман"
+
+msgctxt "#30613"
+msgid "Enable Mods"
+msgstr "Включить моды"
+
+msgctxt "#30614"
+msgid "VR Mode"
+msgstr "Режим VR"
+
+msgctxt "#30615"
+msgid "Texture Filtering"
+msgstr "Фильтрация текстур"
+
+msgctxt "#30616"
+msgid "Anisotropic Filtering"
+msgstr "Анизотропная фильтрация"
+
+msgctxt "#30617"
+msgid "Load Custom Textures"
+msgstr "Загружать пользовательские текстуры"
+
+msgctxt "#30618"
+msgid "Prefetch Custom Textures"
+msgstr "Предзагрузка пользовательских текстур"
+
+msgctxt "#30619"
+msgid "Output Resampling"
+msgstr "Передискретизация вывода"
+
+msgctxt "#30620"
+msgid "Force True Color"
+msgstr "Принудительный истинный цвет"
+
+msgctxt "#30621"
+msgid "Disable Copy Filter"
+msgstr "Отключить фильтр копирования"
+
+msgctxt "#30622"
+msgid "HDR Output"
+msgstr "Вывод HDR"
+
+msgctxt "#30623"
+msgid "Arbitrary Mipmap Detection"
+msgstr "Обнаружение произвольных мипмапов"
+
+msgctxt "#30624"
+msgid "EFB Access from CPU"
+msgstr "Доступ к EFB со стороны ЦП"
+
+msgctxt "#30625"
+msgid "EFB Access Defer Invalidation"
+msgstr "Отложенная инвалидация доступа к EFB"
+
+msgctxt "#30626"
+msgid "EFB Access Tile Size"
+msgstr "Размер тайла доступа к EFB"
+
+msgctxt "#30627"
+msgid "Bounding Box"
+msgstr "Ограничивающий параллелепипед"
+
+msgctxt "#30628"
+msgid "Force Progressive"
+msgstr "Принудительная прогрессивная развёртка"
+
+msgctxt "#30629"
+msgid "Skip EFB Copy to RAM"
+msgstr "Пропускать копирование EFB в ОЗУ"
+
+msgctxt "#30630"
+msgid "Skip XFB Copy to RAM"
+msgstr "Пропускать копирование XFB в ОЗУ"
+
+msgctxt "#30631"
+msgid "Disable EFB to VRAM"
+msgstr "Отключить копирование EFB в видеопамять"
+
+msgctxt "#30632"
+msgid "Defer EFB Copies"
+msgstr "Отложить копирование EFB"
+
+msgctxt "#30633"
+msgid "Immediate XFB"
+msgstr "Немедленный XFB"
+
+msgctxt "#30634"
+msgid "Skip Duplicate Frames"
+msgstr "Пропускать дублирующиеся кадры"
+
+msgctxt "#30635"
+msgid "Early XFB Output"
+msgstr "Ранний вывод XFB"
+
+msgctxt "#30636"
+msgid "EFB Scaled Copy"
+msgstr "Масштабированное копирование EFB"
+
+msgctxt "#30637"
+msgid "EFB Emulate Format Changes"
+msgstr "Эмулировать смену формата EFB"
+
+msgctxt "#30638"
+msgid "Vertex Rounding"
+msgstr "Округление вершин"
+
+msgctxt "#30639"
+msgid "VI Skip"
+msgstr "Пропуск VI"
+
+msgctxt "#30640"
+msgid "Fast Texture Sampling"
+msgstr "Быстрая выборка текстур"
+
+msgctxt "#30641"
+msgid "Performance Queries"
+msgstr "Запросы производительности"
+
+msgctxt "#30642"
+msgid "Device"
+msgstr "Устройство"
+
+msgctxt "#30645"
+msgid "Wiimote IR Mode"
+msgstr "Режим ИК-указателя"
+
+msgctxt "#30646"
+msgid "Wiimote IR Vertical Offset"
+msgstr "Вертикальное смещение ИК-указателя"
+
+msgctxt "#30647"
+msgid "Wiimote IR Total Yaw"
+msgstr "Общий рыскание ИК-указателя"
+
+msgctxt "#30648"
+msgid "Wiimote IR Total Pitch"
+msgstr "Общий тангаж ИК-указателя"
+
+msgctxt "#30654"
+msgid "Automatically Import Cheats into RetroArch"
+msgstr "Автоматически импортировать читы в RetroArch"
+
+msgctxt "#30655"
+msgid "Load & Prevent Save Settings"
+msgstr "Загружать и запрещать сохранение настроек"
+
+msgctxt "#30653"
+msgid "Wiimote IR Passthrough"
+msgstr "Сквозная передача ИК-указателя"
+
+msgctxt "#30656"
+msgid "Enable Virtual File System (VFS)"
+msgstr "Включить виртуальную файловую систему (VFS)"
+
+msgctxt "#30657"
+msgid "Enable Default Mouse Bindings"
+msgstr "Включить привязки мыши по умолчанию"
+
+msgctxt "#30660"
+msgid "Enable DSU Client"
+msgstr "Включить клиент DSU"
+
+msgctxt "#30661"
+msgid "Server IP Octet 1"
+msgstr "1-й октет IP-адреса сервера"
+
+msgctxt "#30662"
+msgid "Server IP Octet 2"
+msgstr "2-й октет IP-адреса сервера"
+
+msgctxt "#30663"
+msgid "Server IP Octet 3"
+msgstr "3-й октет IP-адреса сервера"
+
+msgctxt "#30664"
+msgid "Server IP Octet 4"
+msgstr "4-й октет IP-адреса сервера"
+
+msgctxt "#30665"
+msgid "Server Port"
+msgstr "Порт сервера"
+
+#~ msgctxt "#30003"
+#~ msgid "Core > CPU Core"
+#~ msgstr "Ядро > Ядро ЦП"
+
+#~ msgctxt "#30008"
+#~ msgid "Core > CPU Clock Rate"
+#~ msgstr "Ядро > Тактовая частота ЦП"
+
+#~ msgctxt "#30025"
+#~ msgid "Core > Emulation Speed"
+#~ msgstr "Ядро > Скорость эмуляции"
+
+#~ msgctxt "#30029"
+#~ msgid "Core > Dual Core Mode"
+#~ msgstr "Ядро > Двухъядерный режим"
+
+#~ msgctxt "#30033"
+#~ msgid "Core > Load Whole Game Into Memory"
+#~ msgstr "Ядро > Загружать всю игру в память"
+
+#~ msgctxt "#30035"
+#~ msgid "Core > Precision Frame Timing"
+#~ msgstr "Ядро > Точная синхронизация кадров"
+
+#~ msgctxt "#30037"
+#~ msgid "Core > Fastmem"
+#~ msgstr "Ядро > Fastmem"
+
+#~ msgctxt "#30039"
+#~ msgid "Core > Fastmem Arena"
+#~ msgstr "Ядро > Арена fastmem"
+
+#~ msgctxt "#30041"
+#~ msgid "Core > Accurate CPU cache"
+#~ msgstr "Ядро > Точный кэш ЦП"
+
+#~ msgctxt "#30043"
+#~ msgid "Core > Internal Cheats"
+#~ msgstr "Ядро > Встроенные читы"
+
+#~ msgctxt "#30045"
+#~ msgid "Core > Skip GameCube BIOS"
+#~ msgstr "Ядро > Пропускать BIOS GameCube"
+
+#~ msgctxt "#30047"
+#~ msgid "Core > Disc Based Games Boot to Wii Menu"
+#~ msgstr "Ядро > Игры на дисках загружаются в меню Wii"
+
+#~ msgctxt "#30049"
+#~ msgid "Core > System Language"
+#~ msgstr "Ядро > Язык системы"
+
+#~ msgctxt "#30061"
+#~ msgid "Core > Speed Up Disc Transfer"
+#~ msgstr "Ядро > Ускорить передачу с диска"
+
+#~ msgctxt "#30063"
+#~ msgid "Core > Enable MMU"
+#~ msgstr "Ядро > Включить MMU"
+
+#~ msgctxt "#30065"
+#~ msgid "Core > Rush Frame Presentation"
+#~ msgstr "Ядро > Ускоренный вывод кадров"
+
+#~ msgctxt "#30067"
+#~ msgid "Core > Smooth Early Presentation"
+#~ msgstr "Ядро > Плавный ранний вывод"
+
+#~ msgctxt "#30071"
+#~ msgid "Audio / DSP > DSP HLE"
+#~ msgstr "Аудио / DSP > DSP HLE"
+
+#~ msgctxt "#30075"
+#~ msgid "Audio / DSP > DSP JIT"
+#~ msgstr "Аудио / DSP > JIT для DSP"
+
+#~ msgctxt "#30077"
+#~ msgid "Audio / DSP > Async Audio Callback"
+#~ msgstr "Аудио / DSP > Асинхронный звуковой обратный вызов"
+
+#~ msgctxt "#30084"
+#~ msgid "Interface > On-Screen Display"
+#~ msgstr "Интерфейс > Экранные сообщения"
+
+#~ msgctxt "#30086"
+#~ msgid "Interface > Log Level"
+#~ msgstr "Интерфейс > Уровень журналирования"
+
+#~ msgctxt "#30092"
+#~ msgid "Interface > Logging > Boot"
+#~ msgstr "Интерфейс > Журналирование > Загрузка"
+
+#~ msgctxt "#30094"
+#~ msgid "Interface > Logging > Core"
+#~ msgstr "Интерфейс > Журналирование > Ядро"
+
+#~ msgctxt "#30096"
+#~ msgid "Interface > Logging > Video"
+#~ msgstr "Интерфейс > Журналирование > Видео"
+
+#~ msgctxt "#30098"
+#~ msgid "Interface > Logging > Common"
+#~ msgstr "Интерфейс > Журналирование > Общие"
+
+#~ msgctxt "#30100"
+#~ msgid "Interface > Logging > Host GPU"
+#~ msgstr "Интерфейс > Журналирование > ГП хоста"
+
+#~ msgctxt "#30102"
+#~ msgid "Interface > Logging > MemMap"
+#~ msgstr "Интерфейс > Журналирование > Карта памяти"
+
+#~ msgctxt "#30104"
+#~ msgid "Interface > Logging > DSP Interface"
+#~ msgstr "Интерфейс > Журналирование > Интерфейс DSP"
+
+#~ msgctxt "#30106"
+#~ msgid "Interface > Logging > DSP HLE"
+#~ msgstr "Интерфейс > Журналирование > DSP HLE"
+
+#~ msgctxt "#30108"
+#~ msgid "Interface > Logging > DSP LLE"
+#~ msgstr "Интерфейс > Журналирование > DSP LLE"
+
+#~ msgctxt "#30110"
+#~ msgid "Interface > Logging > DSP MAIL"
+#~ msgstr "Интерфейс > Журналирование > DSP MAIL"
+
+#~ msgctxt "#30112"
+#~ msgid "Interface > Enable debugging"
+#~ msgstr "Интерфейс > Включить отладку"
+
+#~ msgctxt "#30116"
+#~ msgid "System Configuration (GC) > SP1 Device"
+#~ msgstr "Конфигурация системы (GC) > Устройство SP1"
+
+#~ msgctxt "#30127"
+#~ msgid "System Configuration (GC) > GameCube Microphone"
+#~ msgstr "Конфигурация системы (GC) > Микрофон GameCube"
+
+#~ msgctxt "#30129"
+#~ msgid "System Configuration (GC) > Microphone Button"
+#~ msgstr "Конфигурация системы (GC) > Кнопка микрофона"
+
+#~ msgctxt "#30145"
+#~ msgid "System Configuration > Widescreen (Wii)"
+#~ msgstr "Конфигурация системы > Широкоэкранный режим (Wii)"
+
+#~ msgctxt "#30147"
+#~ msgid "System Configuration > Progressive Scan"
+#~ msgstr "Конфигурация системы > Прогрессивная развёртка"
+
+#~ msgctxt "#30149"
+#~ msgid "System Configuration > PAL60 Mode"
+#~ msgstr "Конфигурация системы > Режим PAL60"
+
+#~ msgctxt "#30151"
+#~ msgid "System Configuration > Sensor Bar Position"
+#~ msgstr "Конфигурация системы > Положение сенсорной панели"
+
+#~ msgctxt "#30155"
+#~ msgid "System Configuration > Controller Rumble"
+#~ msgstr "Конфигурация системы > Вибрация контроллера"
+
+#~ msgctxt "#30157"
+#~ msgid "System Configuration > Wiimote Continuous Scanning"
+#~ msgstr "Конфигурация системы > Непрерывное сканирование Wiimote"
+
+#~ msgctxt "#30159"
+#~ msgid "System Configuration > Alt GC Ports (Wii)"
+#~ msgstr "Конфигурация системы > Альтернативные порты GC (Wii)"
+
+#~ msgctxt "#30161"
+#~ msgid "System Configuration > Bluetooth passthrough mode"
+#~ msgstr "Конфигурация системы > Режим сквозной передачи Bluetooth"
+
+#~ msgctxt "#30163"
+#~ msgid "System Configuration > Wii Speak"
+#~ msgstr "Конфигурация системы > Wii Speak"
+
+#~ msgctxt "#30165"
+#~ msgid "Audio > Devices > Wii Speak Muted"
+#~ msgstr "Аудио > Устройства > Wii Speak без звука"
+
+#~ msgctxt "#30167"
+#~ msgid "System Configuration > Logitech USB Microphone"
+#~ msgstr "Конфигурация системы > USB-микрофон Logitech"
+
+#~ msgctxt "#30171"
+#~ msgid "Graphics > Settings > Graphics Backend"
+#~ msgstr "Графика > Настройки > Бэкенд графики"
+
+#~ msgctxt "#30174"
+#~ msgid "Graphics > Settings > Widescreen Hack"
+#~ msgstr "Графика > Настройки > Хак широкоэкранного режима"
+
+#~ msgctxt "#30176"
+#~ msgid "Graphics > Settings > Aspect Ratio"
+#~ msgstr "Графика > Настройки > Соотношение сторон"
+
+#~ msgctxt "#30185"
+#~ msgid "Graphics > Settings > Crop Overscan"
+#~ msgstr "Графика > Настройки > Обрезать вылеты развёртки"
+
+#~ msgctxt "#30187"
+#~ msgid "Graphics > Settings > Internal Resolution"
+#~ msgstr "Графика > Настройки > Внутреннее разрешение"
+
+#~ msgctxt "#30201"
+#~ msgid "Graphics > Settings > Shader Compilation"
+#~ msgstr "Графика > Настройки > Компиляция шейдеров"
+
+#~ msgctxt "#30207"
+#~ msgid "Graphics > Settings > Wait for Shaders"
+#~ msgstr "Графика > Настройки > Ждать шейдеры"
+
+#~ msgctxt "#30209"
+#~ msgid "Graphics > Settings > Anti-Aliasing"
+#~ msgstr "Графика > Настройки > Сглаживание"
+
+#~ msgctxt "#30217"
+#~ msgid "Graphics > Settings > Texture Cache Accuracy"
+#~ msgstr "Графика > Настройки > Точность кэша текстур"
+
+#~ msgctxt "#30222"
+#~ msgid "Graphics > Settings > GPU Texture Decoding"
+#~ msgstr "Графика > Настройки > Декодирование текстур на ГП"
+
+#~ msgctxt "#30224"
+#~ msgid "Graphics > Settings > Pixel Lighting"
+#~ msgstr "Графика > Настройки > Пиксельное освещение"
+
+#~ msgctxt "#30226"
+#~ msgid "Graphics > Settings > Fast Depth Calculation"
+#~ msgstr "Графика > Настройки > Быстрый расчёт глубины"
+
+#~ msgctxt "#30228"
+#~ msgid "Graphics > Settings > Disable Fog"
+#~ msgstr "Графика > Настройки > Отключить туман"
+
+#~ msgctxt "#30230"
+#~ msgid "Graphics > Settings > Enable Mods"
+#~ msgstr "Графика > Настройки > Включить моды"
+
+#~ msgctxt "#30234"
+#~ msgid "Graphics > Enhancements > Texture Filtering"
+#~ msgstr "Графика > Улучшения > Фильтрация текстур"
+
+#~ msgctxt "#30239"
+#~ msgid "Graphics > Enhancements > Anisotropic Filtering"
+#~ msgstr "Графика > Улучшения > Анизотропная фильтрация"
+
+#~ msgctxt "#30246"
+#~ msgid "Graphics > Enhancements > Load Custom Textures"
+#~ msgstr "Графика > Улучшения > Загружать пользовательские текстуры"
+
+#~ msgctxt "#30248"
+#~ msgid "Graphics > Enhancements > Prefetch Custom Textures"
+#~ msgstr "Графика > Улучшения > Предзагрузка пользовательских текстур"
+
+#~ msgctxt "#30250"
+#~ msgid "Graphics > Enhancements > Output Resampling"
+#~ msgstr "Графика > Улучшения > Передискретизация вывода"
+
+#~ msgctxt "#30258"
+#~ msgid "Graphics > Enhancements > Force True Color"
+#~ msgstr "Графика > Улучшения > Принудительный истинный цвет"
+
+#~ msgctxt "#30260"
+#~ msgid "Graphics > Enhancements > Disable Copy Filter"
+#~ msgstr "Графика > Улучшения > Отключить фильтр копирования"
+
+#~ msgctxt "#30262"
+#~ msgid "Graphics > Enhancements > HDR Output"
+#~ msgstr "Графика > Улучшения > Вывод HDR"
+
+#~ msgctxt "#30264"
+#~ msgid "Graphics > Enhancements > Arbitrary Mipmap Detection"
+#~ msgstr "Графика > Улучшения > Обнаружение произвольных мипмапов"
+
+#~ msgctxt "#30268"
+#~ msgid "Graphics > Hacks > EFB Access from CPU"
+#~ msgstr "Графика > Хитрости > Доступ к EFB со стороны ЦП"
+
+#~ msgctxt "#30270"
+#~ msgid "Graphics > Hacks > EFB Access Defer Invalidation"
+#~ msgstr "Графика > Хитрости > Отложенная инвалидация доступа к EFB"
+
+#~ msgctxt "#30272"
+#~ msgid "Graphics > Hacks > EFB Access Tile Size"
+#~ msgstr "Графика > Хитрости > Размер тайла доступа к EFB"
+
+#~ msgctxt "#30280"
+#~ msgid "Graphics > Hacks > Bounding Box"
+#~ msgstr "Графика > Хитрости > Ограничивающий параллелепипед"
+
+#~ msgctxt "#30282"
+#~ msgid "Graphics > Hacks > Force Progressive"
+#~ msgstr "Графика > Хитрости > Принудительная прогрессивная развёртка"
+
+#~ msgctxt "#30284"
+#~ msgid "Graphics > Hacks > Skip EFB Copy to RAM"
+#~ msgstr "Графика > Хитрости > Пропускать копирование EFB в ОЗУ"
+
+#~ msgctxt "#30286"
+#~ msgid "Graphics > Hacks > Skip XFB Copy to RAM"
+#~ msgstr "Графика > Хитрости > Пропускать копирование XFB в ОЗУ"
+
+#~ msgctxt "#30288"
+#~ msgid "Graphics > Hacks > Disable EFB to VRAM"
+#~ msgstr "Графика > Хитрости > Отключить копирование EFB в видеопамять"
+
+#~ msgctxt "#30290"
+#~ msgid "Graphics > Hacks > Defer EFB Copies"
+#~ msgstr "Графика > Хитрости > Отложить копирование EFB"
+
+#~ msgctxt "#30292"
+#~ msgid "Graphics > Hacks > Immediate XFB"
+#~ msgstr "Графика > Хитрости > Немедленный XFB"
+
+#~ msgctxt "#30294"
+#~ msgid "Graphics > Hacks > Skip Duplicate Frames"
+#~ msgstr "Графика > Хитрости > Пропускать дублирующиеся кадры"
+
+#~ msgctxt "#30296"
+#~ msgid "Graphics > Hacks > Early XFB Output"
+#~ msgstr "Графика > Хитрости > Ранний вывод XFB"
+
+#~ msgctxt "#30298"
+#~ msgid "Graphics > Hacks > EFB Scaled Copy"
+#~ msgstr "Графика > Хитрости > Масштабированное копирование EFB"
+
+#~ msgctxt "#30300"
+#~ msgid "Graphics > Hacks > EFB Emulate Format Changes"
+#~ msgstr "Графика > Хитрости > Эмулировать смену формата EFB"
+
+#~ msgctxt "#30302"
+#~ msgid "Graphics > Hacks > Vertex Rounding"
+#~ msgstr "Графика > Хитрости > Округление вершин"
+
+#~ msgctxt "#30304"
+#~ msgid "Graphics > Hacks > VI Skip"
+#~ msgstr "Графика > Хитрости > Пропуск VI"
+
+#~ msgctxt "#30306"
+#~ msgid "Graphics > Hacks > Fast Texture Sampling"
+#~ msgstr "Графика > Хитрости > Быстрая выборка текстур"
+
+#~ msgctxt "#30310"
+#~ msgid "Graphics > Game Specific > Performance Queries"
+#~ msgstr "Графика > Для конкретных игр > Запросы производительности"
+
+#~ msgctxt "#30314"
+#~ msgid "WiiMote Sideways > Toggle Button"
+#~ msgstr "Wii Remote горизонтально > Кнопка переключения"
+
+#~ msgctxt "#30317"
+#~ msgid "WiiMote Upright > Toggle Button"
+#~ msgstr "Wii Remote вертикально > Кнопка переключения"
+
+#~ msgctxt "#30319"
+#~ msgid "Wiimote IR > Wiimote IR Mode"
+#~ msgstr "ИК-указатель Wii Remote > Режим ИК-указателя"
+
+#~ msgctxt "#30324"
+#~ msgid "Wiimote IR > Wiimote IR Vertical Offset"
+#~ msgstr "ИК-указатель Wii Remote > Вертикальное смещение ИК-указателя"
+
+#~ msgctxt "#30423"
+#~ msgid "Wiimote IR > Wiimote IR Total Yaw"
+#~ msgstr "ИК-указатель Wii Remote > Общий рыскание ИК-указателя"
+
+#~ msgctxt "#30477"
+#~ msgid "Wiimote IR > Wiimote IR Total Pitch"
+#~ msgstr "ИК-указатель Wii Remote > Общий тангаж ИК-указателя"
+
+#~ msgctxt "#30479"
+#~ msgid "Wiimote IR > Wiimote IR Deadzone"
+#~ msgstr "ИК-указатель Wii Remote > Мёртвая зона ИК-указателя"
+
+#~ msgctxt "#30482"
+#~ msgid "WiiMote IR > Modifier Button"
+#~ msgstr "ИК-указатель Wii Remote > Кнопка-модификатор"
+
+#~ msgctxt "#30485"
+#~ msgid "WiiMote Swing > Modifier Button"
+#~ msgstr "Взмах Wii Remote > Кнопка-модификатор"
+
+#~ msgctxt "#30487"
+#~ msgid "Wiimote Swing > Angle"
+#~ msgstr "Взмах Wii Remote > Угол"
+
+#~ msgctxt "#30498"
+#~ msgid "Wiimote IR > Wiimote IR Passthrough"
+#~ msgstr "ИК-указатель Wii Remote > Сквозная передача ИК-указателя"
+
+#~ msgctxt "#30502"
+#~ msgid "RetroArch Core > Automatically Import Cheats into RetroArch"
+#~ msgstr "Ядро RetroArch > Автоматически импортировать читы в RetroArch"
+
+#~ msgctxt "#30504"
+#~ msgid "RetroArch core > Load & Prevent Save Settings"
+#~ msgstr "Ядро RetroArch > Загружать и запрещать сохранение настроек"
+
+#~ msgctxt "#30506"
+#~ msgid "RetroArch core > Enable Virtual File System (VFS)"
+#~ msgstr "Ядро RetroArch > Включить виртуальную файловую систему (VFS)"
+
+#~ msgctxt "#30508"
+#~ msgid "RetroArch core > Enable Default Mouse Bindings"
+#~ msgstr "Ядро RetroArch > Включить привязки мыши по умолчанию"
+
+#~ msgctxt "#30512"
+#~ msgid "Wiimote (DSU) > Enable DSU Client"
+#~ msgstr "Wii Remote (DSU) > Включить клиент DSU"
+
+#~ msgctxt "#30514"
+#~ msgid "Wiimote (DSU) > Server IP Octet 1"
+#~ msgstr "Wii Remote (DSU) > 1-й октет IP-адреса сервера"
+
+#~ msgctxt "#30516"
+#~ msgid "Wiimote (DSU) > Server IP Octet 2"
+#~ msgstr "Wii Remote (DSU) > 2-й октет IP-адреса сервера"
+
+#~ msgctxt "#30518"
+#~ msgid "Wiimote (DSU) > Server IP Octet 3"
+#~ msgstr "Wii Remote (DSU) > 3-й октет IP-адреса сервера"
+
+#~ msgctxt "#30520"
+#~ msgid "Wiimote (DSU) > Server IP Octet 4"
+#~ msgstr "Wii Remote (DSU) > 4-й октет IP-адреса сервера"
+
+#~ msgctxt "#30522"
+#~ msgid "Wiimote (DSU) > Server Port"
+#~ msgstr "Wii Remote (DSU) > Порт сервера"
+
+#~ msgctxt "#30530"
+#~ msgid "Graphics > Settings > VR Mode"
+#~ msgstr "Графика > Настройки > Режим VR"
+
+#~ msgctxt "#30534"
+#~ msgid "WiiMote > Device"
+#~ msgstr "WiiMote > Устройство"
+
+#~ msgctxt "#30549"
+#~ msgid "Interface > Logging > Popups"
+#~ msgstr "Интерфейс > Журналирование > Всплывающие сообщения"
+
+#~ msgctxt "#30550"
+#~ msgid "Enable Popup log messages."
+#~ msgstr "Включить всплывающие сообщения журнала."
 
 #~ msgctxt "#30002"
 #~ msgid "Internal Resolution"

@@ -34,10 +34,6 @@ msgctxt "#30002"
 msgid "Configure CPU emulation, timing, and core system settings."
 msgstr "Nastavit emulaci CPU, časování a základní systémová nastavení."
 
-msgctxt "#30003"
-msgid "Core > CPU Core"
-msgstr "Jádro > Jádro CPU"
-
 msgctxt "#30004"
 msgid "Select CPU emulation method - JIT provides best performance."
 msgstr "Vybrat způsob emulace CPU - JIT poskytuje nejlepší výkon."
@@ -53,10 +49,6 @@ msgstr "JIT64 (doporučeno)"
 msgctxt "#30007"
 msgid "Cached Interpreter (slower)"
 msgstr "Interpret s mezipamětí (pomalejší)"
-
-msgctxt "#30008"
-msgid "Core > CPU Clock Rate"
-msgstr "Jádro > Taktovací frekvence CPU"
 
 msgctxt "#30009"
 msgid "Adjust emulated CPU speed."
@@ -122,10 +114,6 @@ msgctxt "#30024"
 msgid "300%"
 msgstr "300%"
 
-msgctxt "#30025"
-msgid "Core > Emulation Speed"
-msgstr "Jádro > Rychlost emulace"
-
 msgctxt "#30026"
 msgid "Set speed limit for emulation."
 msgstr "Nastavit omezení rychlosti emulace."
@@ -137,10 +125,6 @@ msgstr "100% (normální rychlost)"
 msgctxt "#30028"
 msgid "Unlimited"
 msgstr "Bez omezení"
-
-msgctxt "#30029"
-msgid "Core > Dual Core Mode"
-msgstr "Jádro > Dvoujádrový režim"
 
 msgctxt "#30030"
 msgid "Enable dual-core CPU emulation. Requires core RESTART."
@@ -154,73 +138,37 @@ msgctxt "#30032"
 msgid "Enabled"
 msgstr "Povoleno"
 
-msgctxt "#30033"
-msgid "Core > Load Whole Game Into Memory"
-msgstr "Jádro > Načíst celou hru do paměti"
-
 msgctxt "#30034"
 msgid "Load Whole Game Into Memory. Requires core RESTART."
 msgstr "Načíst celou hru do paměti. Vyžaduje RESTART jádra."
-
-msgctxt "#30035"
-msgid "Core > Precision Frame Timing"
-msgstr "Jádro > Přesné časování snímků"
 
 msgctxt "#30036"
 msgid "Use busy-wait for more accurate frame timing."
 msgstr "Používat aktivní čekání pro přesnější časování snímků."
 
-msgctxt "#30037"
-msgid "Core > Fastmem"
-msgstr "Jádro > Fastmem"
-
 msgctxt "#30038"
 msgid "Enable fastmem optimization - which uses memory mapping for faster access."
 msgstr "Povolit optimalizaci fastmem - využívá mapování paměti pro rychlejší přístup."
-
-msgctxt "#30039"
-msgid "Core > Fastmem Arena"
-msgstr "Jádro > Fastmem Arena"
 
 msgctxt "#30040"
 msgid "Enable fastmem arena - reserves 12 GiB of virtual memory for super fast access."
 msgstr "Povolit arénu fastmem - vyhradí 12 GiB virtuální paměti pro mimořádně rychlý přístup."
 
-msgctxt "#30041"
-msgid "Core > Accurate CPU cache"
-msgstr "Jádro > Přesná mezipaměť CPU"
-
 msgctxt "#30042"
 msgid "Enabled - fast, Disabled - guarantees correctness involving cache behaviour."
 msgstr "Povoleno - rychlé, Zakázáno - zaručuje správnost chování mezipaměti."
-
-msgctxt "#30043"
-msgid "Core > Internal Cheats"
-msgstr "Jádro > Interní cheaty"
 
 msgctxt "#30044"
 msgid "Enable built-in cheat codes. Restart core to take effect."
 msgstr "Povolit vestavěné cheatovací kódy. Změna se projeví po restartu jádra."
 
-msgctxt "#30045"
-msgid "Core > Skip GameCube BIOS"
-msgstr "Jádro > Přeskočit BIOS konzole GameCube"
-
 msgctxt "#30046"
 msgid "Skip the GameCube BIOS animation/menu and start the game directly."
 msgstr "Přeskočit animaci/nabídku BIOS konzole GameCube a spustit hru přímo."
 
-msgctxt "#30047"
-msgid "Core > Disc Based Games Boot to Wii Menu"
-msgstr "Jádro > Spouštět diskové hry do nabídky Wii"
-
 msgctxt "#30048"
 msgid "When a Wii System Menu is installed in the save location and the game is a disc based game, it will start the Wii Menu with the disc inserted in the drive instead of directly booting the game. Beware: The game region must match the Wii Menu region otherwise the game will not be recognized."
 msgstr "Pokud je v umístění pro ukládání nainstalována systémová nabídka Wii a hra je na disku, spustí se nabídka Wii s diskem vloženým v mechanice místo přímého spuštění hry. Pozor: Region hry musí odpovídat regionu nabídky Wii, jinak nebude hra rozpoznána."
-
-msgctxt "#30049"
-msgid "Core > System Language"
-msgstr "Jádro > Jazyk systému"
 
 msgctxt "#30050"
 msgid "Set system language."
@@ -266,33 +214,17 @@ msgctxt "#30060"
 msgid "Korean"
 msgstr "Korejština"
 
-msgctxt "#30061"
-msgid "Core > Speed Up Disc Transfer"
-msgstr "Jádro > Zrychlit přenos dat z disku"
-
 msgctxt "#30062"
 msgid "Reduce loading times."
 msgstr "Zkrátit doby načítání."
-
-msgctxt "#30063"
-msgid "Core > Enable MMU"
-msgstr "Jádro > Povolit MMU"
 
 msgctxt "#30064"
 msgid "Enable emulation of the Memory Management Unit."
 msgstr "Povolit emulaci jednotky správy paměti."
 
-msgctxt "#30065"
-msgid "Core > Rush Frame Presentation"
-msgstr "Jádro > Uspíšit prezentaci snímků"
-
 msgctxt "#30066"
 msgid "Enable rushing frame presentation for lower latency."
 msgstr "Povolit uspíšení prezentace snímků pro nižší latenci."
-
-msgctxt "#30067"
-msgid "Core > Smooth Early Presentation"
-msgstr "Jádro > Vyhladit předčasnou prezentaci"
 
 msgctxt "#30068"
 msgid "Enable smoother early frame presentation timing."
@@ -306,10 +238,6 @@ msgctxt "#30070"
 msgid "Configure audio output and DSP emulation."
 msgstr "Nastavit zvukový výstup a emulaci DSP."
 
-msgctxt "#30071"
-msgid "Audio / DSP > DSP HLE"
-msgstr "Zvuk / DSP > DSP HLE"
-
 msgctxt "#30072"
 msgid "Choose DSP method - HLE is faster, LLE is more accurate."
 msgstr "Vybrat způsob emulace DSP - HLE je rychlejší, LLE je přesnější."
@@ -322,17 +250,9 @@ msgctxt "#30074"
 msgid "LLE (Accurate)"
 msgstr "LLE (přesné)"
 
-msgctxt "#30075"
-msgid "Audio / DSP > DSP JIT"
-msgstr "Zvuk / DSP > DSP JIT"
-
 msgctxt "#30076"
 msgid "Enable JIT for DSP LLE."
 msgstr "Povolit JIT pro DSP LLE."
-
-msgctxt "#30077"
-msgid "Audio / DSP > Async Audio Callback"
-msgstr "Zvuk / DSP > Asynchronní zpětné volání pro zvuk"
 
 msgctxt "#30078"
 msgid "Use asynchronous audio callbacks."
@@ -358,17 +278,9 @@ msgctxt "#30083"
 msgid "Configure on-screen display and logging."
 msgstr "Nastavit zobrazení na obrazovce a protokolování."
 
-msgctxt "#30084"
-msgid "Interface > On-Screen Display"
-msgstr "Rozhraní > Zobrazení na obrazovce"
-
 msgctxt "#30085"
 msgid "Show OSD messages."
 msgstr "Zobrazovat zprávy OSD."
-
-msgctxt "#30086"
-msgid "Interface > Log Level"
-msgstr "Rozhraní > Úroveň protokolování"
 
 msgctxt "#30087"
 msgid "Set log verbosity."
@@ -390,89 +302,45 @@ msgctxt "#30091"
 msgid "Info"
 msgstr "Informace"
 
-msgctxt "#30092"
-msgid "Interface > Logging > Boot"
-msgstr "Rozhraní > Protokolování > Spouštění"
-
 msgctxt "#30093"
 msgid "Enable Boot log messages."
 msgstr "Povolit protokolové zprávy o spouštění."
-
-msgctxt "#30094"
-msgid "Interface > Logging > Core"
-msgstr "Rozhraní > Protokolování > Jádro"
 
 msgctxt "#30095"
 msgid "Enable Core log messages."
 msgstr "Povolit protokolové zprávy jádra."
 
-msgctxt "#30096"
-msgid "Interface > Logging > Video"
-msgstr "Rozhraní > Protokolování > Video"
-
 msgctxt "#30097"
 msgid "Enable Video log messages."
 msgstr "Povolit protokolové zprávy videa."
-
-msgctxt "#30098"
-msgid "Interface > Logging > Common"
-msgstr "Rozhraní > Protokolování > Obecné"
 
 msgctxt "#30099"
 msgid "Enable Common log messages."
 msgstr "Povolit obecné protokolové zprávy."
 
-msgctxt "#30100"
-msgid "Interface > Logging > Host GPU"
-msgstr "Rozhraní > Protokolování > Hostitelské GPU"
-
 msgctxt "#30101"
 msgid "Enable Host GPU log messages."
 msgstr "Povolit protokolové zprávy hostitelského GPU."
-
-msgctxt "#30102"
-msgid "Interface > Logging > MemMap"
-msgstr "Rozhraní > Protokolování > MemMap"
 
 msgctxt "#30103"
 msgid "Enable MemMap log messages."
 msgstr "Povolit protokolové zprávy MemMap."
 
-msgctxt "#30104"
-msgid "Interface > Logging > DSP Interface"
-msgstr "Rozhraní > Protokolování > Rozhraní DSP"
-
 msgctxt "#30105"
 msgid "Enable DSP Interface log messages."
 msgstr "Povolit protokolové zprávy rozhraní DSP."
-
-msgctxt "#30106"
-msgid "Interface > Logging > DSP HLE"
-msgstr "Rozhraní > Protokolování > DSP HLE"
 
 msgctxt "#30107"
 msgid "Enable DSP HLE log messages."
 msgstr "Povolit protokolové zprávy DSP HLE."
 
-msgctxt "#30108"
-msgid "Interface > Logging > DSP LLE"
-msgstr "Rozhraní > Protokolování > DSP LLE"
-
 msgctxt "#30109"
 msgid "Enable DSP LLE log messages."
 msgstr "Povolit protokolové zprávy DSP LLE."
 
-msgctxt "#30110"
-msgid "Interface > Logging > DSP MAIL"
-msgstr "Rozhraní > Protokolování > DSP MAIL"
-
 msgctxt "#30111"
 msgid "Enable DSP MAIL log messages."
 msgstr "Povolit protokolové zprávy DSP MAIL."
-
-msgctxt "#30112"
-msgid "Interface > Enable debugging"
-msgstr "Rozhraní > Povolit ladění"
 
 msgctxt "#30113"
 msgid "Enable the debugger."
@@ -485,10 +353,6 @@ msgstr "Nastavení systému - GameCube"
 msgctxt "#30115"
 msgid "Configure Gamecube system settings."
 msgstr "Upravit systémová nastavení konzole GameCube."
-
-msgctxt "#30116"
-msgid "System Configuration (GC) > SP1 Device"
-msgstr "Nastavení systému (GC) > Zařízení SP1"
 
 msgctxt "#30117"
 msgid "Select the device connected to the GameCube SP1 slot."
@@ -530,17 +394,9 @@ msgctxt "#30126"
 msgid "Baseboard"
 msgstr "Základní deska"
 
-msgctxt "#30127"
-msgid "System Configuration (GC) > GameCube Microphone"
-msgstr "Nastavení systému (GC) > Mikrofon GameCube"
-
 msgctxt "#30128"
 msgid "Emulate the official GameCube microphone accessory. Restart core after changing this option."
 msgstr "Emulovat oficiální mikrofonní příslušenství GameCube. Po změně této volby restartujte jádro."
-
-msgctxt "#30129"
-msgid "System Configuration (GC) > Microphone Button"
-msgstr "Nastavení systému (GC) > Tlačítko mikrofonu"
 
 msgctxt "#30130"
 msgid "Button to hold or press to activate the microphone input. Selecting OFF disables microphone activation."
@@ -602,33 +458,17 @@ msgctxt "#30144"
 msgid "Configure Wii system settings."
 msgstr "Upravit systémová nastavení konzole Wii."
 
-msgctxt "#30145"
-msgid "System Configuration > Widescreen (Wii)"
-msgstr "Nastavení systému > Širokoúhlé zobrazení (Wii)"
-
 msgctxt "#30146"
 msgid "Enable widescreen for Wii."
 msgstr "Povolit širokoúhlé zobrazení pro Wii."
-
-msgctxt "#30147"
-msgid "System Configuration > Progressive Scan"
-msgstr "Nastavení systému > Progresivní rozklad"
 
 msgctxt "#30148"
 msgid "Enable progressive scan."
 msgstr "Povolit progresivní rozklad."
 
-msgctxt "#30149"
-msgid "System Configuration > PAL60 Mode"
-msgstr "Nastavení systému > Režim PAL60"
-
 msgctxt "#30150"
 msgid "Enable 60Hz for PAL games."
 msgstr "Povolit 60 Hz pro hry PAL."
-
-msgctxt "#30151"
-msgid "System Configuration > Sensor Bar Position"
-msgstr "Nastavení systému > Poloha senzorové lišty"
 
 msgctxt "#30152"
 msgid "Set Wiimote sensor bar position."
@@ -642,57 +482,29 @@ msgctxt "#30154"
 msgid "Top"
 msgstr "Nahoře"
 
-msgctxt "#30155"
-msgid "System Configuration > Controller Rumble"
-msgstr "Nastavení systému > Vibrace ovladače"
-
 msgctxt "#30156"
 msgid "Enable rumble feedback."
 msgstr "Povolit vibrační odezvu."
-
-msgctxt "#30157"
-msgid "System Configuration > Wiimote Continuous Scanning"
-msgstr "Nastavení systému > Nepřetržité vyhledávání ovladačů Wiimote"
 
 msgctxt "#30158"
 msgid "Continuously scan for Wiimotes."
 msgstr "Nepřetržitě vyhledávat ovladače Wiimote."
 
-msgctxt "#30159"
-msgid "System Configuration > Alt GC Ports (Wii)"
-msgstr "Nastavení systému > Alternativní porty GC (Wii)"
-
 msgctxt "#30160"
 msgid "Use ports 5-8 for GameCube controllers in Wii mode."
 msgstr "Používat porty 5-8 pro ovladače GameCube v režimu Wii."
-
-msgctxt "#30161"
-msgid "System Configuration > Bluetooth passthrough mode"
-msgstr "Nastavení systému > Režim přímého předávání Bluetooth"
 
 msgctxt "#30162"
 msgid "Pass all traffic directly to the host's Bluetooth adapter. Press F12 to begin the sync process."
 msgstr "Předávat veškerý provoz přímo adaptéru Bluetooth hostitelského systému. Stisknutím F12 zahájíte proces synchronizace."
 
-msgctxt "#30163"
-msgid "System Configuration > Wii Speak"
-msgstr "Nastavení systému > Wii Speak"
-
 msgctxt "#30164"
 msgid "Emulate the Wii Speak microphone. Restart when changing this option."
 msgstr "Emulovat mikrofon Wii Speak. Při změně této volby proveďte restart."
 
-msgctxt "#30165"
-msgid "Audio > Devices > Wii Speak Muted"
-msgstr "Zvuk > Zařízení > Ztlumení Wii Speak"
-
 msgctxt "#30166"
 msgid "Mute or unmute the Wii Speak microphone."
 msgstr "Ztlumit mikrofon Wii Speak nebo zrušit jeho ztlumení."
-
-msgctxt "#30167"
-msgid "System Configuration > Logitech USB Microphone"
-msgstr "Nastavení systému > Mikrofon Logitech USB"
 
 msgctxt "#30168"
 msgid "Emulate the Logitech USB microphone. Restart when changing this option."
@@ -706,10 +518,6 @@ msgctxt "#30170"
 msgid "Configure rendering backend and quality settings."
 msgstr "Nastavit vykreslovací backend a parametry kvality."
 
-msgctxt "#30171"
-msgid "Graphics > Settings > Graphics Backend"
-msgstr "Grafika > Nastavení > Grafický backend"
-
 msgctxt "#30172"
 msgid "Select rendering backend."
 msgstr "Vybrat vykreslovací backend."
@@ -718,17 +526,9 @@ msgctxt "#30173"
 msgid "Hardware"
 msgstr "Hardwarový"
 
-msgctxt "#30174"
-msgid "Graphics > Settings > Widescreen Hack"
-msgstr "Grafika > Nastavení > Hack pro širokoúhlé zobrazení"
-
 msgctxt "#30175"
 msgid "Force 16:9 rendering."
 msgstr "Vynutit vykreslování v poměru 16:9."
-
-msgctxt "#30176"
-msgid "Graphics > Settings > Aspect Ratio"
-msgstr "Grafika > Nastavení > Poměr stran"
 
 msgctxt "#30177"
 msgid "Control how the game's image is scaled."
@@ -762,17 +562,9 @@ msgctxt "#30184"
 msgid "Raw"
 msgstr "Neupravený"
 
-msgctxt "#30185"
-msgid "Graphics > Settings > Crop Overscan"
-msgstr "Grafika > Nastavení > Oříznout přesah obrazu"
-
 msgctxt "#30186"
 msgid "Report standard TV output resolution to the frontend (NTSC: 480, PAL: 576). Recommended for CRT displays with SwitchRes."
 msgstr "Hlásit frontendu standardní výstupní rozlišení TV (NTSC: 480, PAL: 576). Doporučeno pro obrazovky CRT se SwitchRes."
-
-msgctxt "#30187"
-msgid "Graphics > Settings > Internal Resolution"
-msgstr "Grafika > Nastavení > Interní rozlišení"
 
 msgctxt "#30188"
 msgid "Multiply native resolution."
@@ -826,10 +618,6 @@ msgctxt "#30200"
 msgid "12x Native (7680x6336) for 8K"
 msgstr "12x nativní (7680x6336) pro 8K"
 
-msgctxt "#30201"
-msgid "Graphics > Settings > Shader Compilation"
-msgstr "Grafika > Nastavení > Kompilace shaderů"
-
 msgctxt "#30202"
 msgid "Control shader compilation."
 msgstr "Řídit kompilaci shaderů."
@@ -850,17 +638,9 @@ msgctxt "#30206"
 msgid "Async (UberShaders)"
 msgstr "Asynchronní (UberShaders)"
 
-msgctxt "#30207"
-msgid "Graphics > Settings > Wait for Shaders"
-msgstr "Grafika > Nastavení > Čekat na shadery"
-
 msgctxt "#30208"
 msgid "Precompile shaders before starting."
 msgstr "Předkompilovat shadery před spuštěním."
-
-msgctxt "#30209"
-msgid "Graphics > Settings > Anti-Aliasing"
-msgstr "Grafika > Nastavení > Vyhlazování hran"
 
 msgctxt "#30210"
 msgid "Reduce jagged edges."
@@ -890,10 +670,6 @@ msgctxt "#30216"
 msgid "8x SSAA"
 msgstr "8x SSAA"
 
-msgctxt "#30217"
-msgid "Graphics > Settings > Texture Cache Accuracy"
-msgstr "Grafika > Nastavení > Přesnost mezipaměti textur"
-
 msgctxt "#30218"
 msgid "Texture cache safety level."
 msgstr "Úroveň bezpečnosti mezipaměti textur."
@@ -910,41 +686,21 @@ msgctxt "#30221"
 msgid "Safe"
 msgstr "Bezpečná"
 
-msgctxt "#30222"
-msgid "Graphics > Settings > GPU Texture Decoding"
-msgstr "Grafika > Nastavení > Dekódování textur na GPU"
-
 msgctxt "#30223"
 msgid "Decode textures on GPU."
 msgstr "Dekódovat textury na GPU."
-
-msgctxt "#30224"
-msgid "Graphics > Settings > Pixel Lighting"
-msgstr "Grafika > Nastavení > Osvětlení po pixelech"
 
 msgctxt "#30225"
 msgid "Enable per-pixel lighting calculations instead of per-vertex."
 msgstr "Povolit výpočty osvětlení pro jednotlivé pixely namísto vrcholů."
 
-msgctxt "#30226"
-msgid "Graphics > Settings > Fast Depth Calculation"
-msgstr "Grafika > Nastavení > Rychlý výpočet hloubky"
-
 msgctxt "#30227"
 msgid "Use faster depth calculation."
 msgstr "Používat rychlejší výpočet hloubky."
 
-msgctxt "#30228"
-msgid "Graphics > Settings > Disable Fog"
-msgstr "Grafika > Nastavení > Zakázat mlhu"
-
 msgctxt "#30229"
 msgid "Disable fog rendering effects. May improve performance but reduces visual accuracy."
 msgstr "Zakázat vykreslování efektů mlhy. Může zlepšit výkon, ale snižuje věrnost zobrazení."
-
-msgctxt "#30230"
-msgid "Graphics > Settings > Enable Mods"
-msgstr "Grafika > Nastavení > Povolit modifikace"
 
 msgctxt "#30231"
 msgid "Loads graphic mods from User/Load/GraphicsMods."
@@ -957,10 +713,6 @@ msgstr "Grafika > Vylepšení"
 msgctxt "#30233"
 msgid "Configure texture filtering and visual enhancements."
 msgstr "Nastavit filtrování textur a vizuální vylepšení."
-
-msgctxt "#30234"
-msgid "Graphics > Enhancements > Texture Filtering"
-msgstr "Grafika > Vylepšení > Filtrování textur"
 
 msgctxt "#30235"
 msgid "Override texture filtering."
@@ -977,10 +729,6 @@ msgstr "Nejbližší soused (ostrý)"
 msgctxt "#30238"
 msgid "Linear (Smooth)"
 msgstr "Lineární (hladký)"
-
-msgctxt "#30239"
-msgid "Graphics > Enhancements > Anisotropic Filtering"
-msgstr "Grafika > Vylepšení > Anizotropní filtrování"
 
 msgctxt "#30240"
 msgid "Improve texture quality at angles."
@@ -1006,25 +754,13 @@ msgctxt "#30245"
 msgid "16x"
 msgstr "16x"
 
-msgctxt "#30246"
-msgid "Graphics > Enhancements > Load Custom Textures"
-msgstr "Grafika > Vylepšení > Načítat vlastní textury"
-
 msgctxt "#30247"
 msgid "Load high-res texture packs."
 msgstr "Načítat balíčky textur ve vysokém rozlišení."
 
-msgctxt "#30248"
-msgid "Graphics > Enhancements > Prefetch Custom Textures"
-msgstr "Grafika > Vylepšení > Přednačítat vlastní textury"
-
 msgctxt "#30249"
 msgid "Preload custom textures."
 msgstr "Přednačítat vlastní textury."
-
-msgctxt "#30250"
-msgid "Graphics > Enhancements > Output Resampling"
-msgstr "Grafika > Vylepšení > Převzorkování výstupu"
 
 msgctxt "#30251"
 msgid "Select the resampling filter used when scaling the final image."
@@ -1054,33 +790,17 @@ msgctxt "#30257"
 msgid "Area Sampling"
 msgstr "Plošné vzorkování"
 
-msgctxt "#30258"
-msgid "Graphics > Enhancements > Force True Color"
-msgstr "Grafika > Vylepšení > Vynutit plnou barevnou hloubku"
-
 msgctxt "#30259"
 msgid "Disable dithering and force 24-bit color output instead of 18-bit."
 msgstr "Zakázat dithering a vynutit 24bitový barevný výstup namísto 18bitového."
-
-msgctxt "#30260"
-msgid "Graphics > Enhancements > Disable Copy Filter"
-msgstr "Grafika > Vylepšení > Zakázat filtr kopírování"
 
 msgctxt "#30261"
 msgid "Disable the GameCube/Wii copy filter. Removes blur from some games but may reduce accuracy."
 msgstr "Zakázat filtr kopírování konzolí GameCube/Wii. Odstraňuje rozmazání v některých hrách, ale může snížit přesnost."
 
-msgctxt "#30262"
-msgid "Graphics > Enhancements > HDR Output"
-msgstr "Grafika > Vylepšení > Výstup HDR"
-
 msgctxt "#30263"
 msgid "Enable High Dynamic Range output when supported by the graphics backend and display."
 msgstr "Povolit výstup s vysokým dynamickým rozsahem, pokud jej podporují grafický backend a displej."
-
-msgctxt "#30264"
-msgid "Graphics > Enhancements > Arbitrary Mipmap Detection"
-msgstr "Grafika > Vylepšení > Detekce nestandardních mipmap"
 
 msgctxt "#30265"
 msgid "Enable detection of arbitrary mipmaps. Improves accuracy in some games but may reduce performance."
@@ -1094,25 +814,13 @@ msgctxt "#30267"
 msgid "Configure accuracy vs performance tradeoffs."
 msgstr "Nastavit kompromisy mezi přesností a výkonem."
 
-msgctxt "#30268"
-msgid "Graphics > Hacks > EFB Access from CPU"
-msgstr "Grafika > Hacky > Přístup k EFB z CPU"
-
 msgctxt "#30269"
 msgid "Allow CPU EFB access. Required for some games but slow."
 msgstr "Povolit přístup CPU k EFB. Je vyžadován pro některé hry, ale je pomalý."
 
-msgctxt "#30270"
-msgid "Graphics > Hacks > EFB Access Defer Invalidation"
-msgstr "Grafika > Hacky > Odložit zneplatnění při přístupu k EFB"
-
 msgctxt "#30271"
 msgid "Defer EFB cache invalidation."
 msgstr "Odložit zneplatnění mezipaměti EFB."
-
-msgctxt "#30272"
-msgid "Graphics > Hacks > EFB Access Tile Size"
-msgstr "Grafika > Hacky > Velikost dlaždice pro přístup k EFB"
 
 msgctxt "#30273"
 msgid "EFB access granularity."
@@ -1142,113 +850,57 @@ msgctxt "#30279"
 msgid "64 (default)"
 msgstr "64 (výchozí)"
 
-msgctxt "#30280"
-msgid "Graphics > Hacks > Bounding Box"
-msgstr "Grafika > Hacky > Ohraničující rámeček"
-
 msgctxt "#30281"
 msgid "Emulate bounding box hardware. Required for Paper Mario TTYD."
 msgstr "Emulovat hardware ohraničujícího rámečku. Je vyžadován pro Paper Mario TTYD."
-
-msgctxt "#30282"
-msgid "Graphics > Hacks > Force Progressive"
-msgstr "Grafika > Hacky > Vynutit progresivní rozklad"
 
 msgctxt "#30283"
 msgid "Force progressive scan."
 msgstr "Vynutit progresivní rozklad."
 
-msgctxt "#30284"
-msgid "Graphics > Hacks > Skip EFB Copy to RAM"
-msgstr "Grafika > Hacky > Přeskočit kopírování EFB do RAM"
-
 msgctxt "#30285"
 msgid "Store EFB in texture memory."
 msgstr "Ukládat EFB do paměti textur."
-
-msgctxt "#30286"
-msgid "Graphics > Hacks > Skip XFB Copy to RAM"
-msgstr "Grafika > Hacky > Přeskočit kopírování XFB do RAM"
 
 msgctxt "#30287"
 msgid "Store XFB in texture memory."
 msgstr "Ukládat XFB do paměti textur."
 
-msgctxt "#30288"
-msgid "Graphics > Hacks > Disable EFB to VRAM"
-msgstr "Grafika > Hacky > Zakázat kopírování EFB do VRAM"
-
 msgctxt "#30289"
 msgid "Disable EFB VRAM copies."
 msgstr "Zakázat kopírování EFB do VRAM."
-
-msgctxt "#30290"
-msgid "Graphics > Hacks > Defer EFB Copies"
-msgstr "Grafika > Hacky > Odložit kopírování EFB"
 
 msgctxt "#30291"
 msgid "Defer EFB copies until needed."
 msgstr "Odložit kopírování EFB, dokud není potřeba."
 
-msgctxt "#30292"
-msgid "Graphics > Hacks > Immediate XFB"
-msgstr "Grafika > Hacky > Okamžité zobrazení XFB"
-
 msgctxt "#30293"
 msgid "Display XFB immediately."
 msgstr "Zobrazit XFB okamžitě."
-
-msgctxt "#30294"
-msgid "Graphics > Hacks > Skip Duplicate Frames"
-msgstr "Grafika > Hacky > Přeskakovat duplicitní snímky"
 
 msgctxt "#30295"
 msgid "Don't present duplicate frames."
 msgstr "Nezobrazovat duplicitní snímky."
 
-msgctxt "#30296"
-msgid "Graphics > Hacks > Early XFB Output"
-msgstr "Grafika > Hacky > Dřívější výstup XFB"
-
 msgctxt "#30297"
 msgid "Output XFB early."
 msgstr "Provést výstup XFB dříve."
-
-msgctxt "#30298"
-msgid "Graphics > Hacks > EFB Scaled Copy"
-msgstr "Grafika > Hacky > Změna měřítka kopie EFB"
 
 msgctxt "#30299"
 msgid "Scale EFB copy by IR."
 msgstr "Změnit měřítko kopie EFB podle IR."
 
-msgctxt "#30300"
-msgid "Graphics > Hacks > EFB Emulate Format Changes"
-msgstr "Grafika > Hacky > Emulovat změny formátu EFB"
-
 msgctxt "#30301"
 msgid "Emulate EFB format changes (needed for some effects)."
 msgstr "Emulovat změny formátu EFB (potřebné pro některé efekty)."
-
-msgctxt "#30302"
-msgid "Graphics > Hacks > Vertex Rounding"
-msgstr "Grafika > Hacky > Zaokrouhlování vrcholů"
 
 msgctxt "#30303"
 msgid "Round vertex positions to avoid gaps."
 msgstr "Zaokrouhlovat polohy vrcholů, aby nevznikaly mezery."
 
-msgctxt "#30304"
-msgid "Graphics > Hacks > VI Skip"
-msgstr "Grafika > Hacky > Přeskakování VI"
-
 msgctxt "#30305"
 msgid "Skip VI updates to improve performance."
 msgstr "Přeskakovat aktualizace VI pro zlepšení výkonu."
-
-msgctxt "#30306"
-msgid "Graphics > Hacks > Fast Texture Sampling"
-msgstr "Grafika > Hacky > Rychlé vzorkování textur"
 
 msgctxt "#30307"
 msgid "Use faster but less accurate texture sampling."
@@ -1262,10 +914,6 @@ msgctxt "#30309"
 msgid "Configure game specific settings."
 msgstr "Nastavit možnosti pro konkrétní hry."
 
-msgctxt "#30310"
-msgid "Graphics > Game Specific > Performance Queries"
-msgstr "Grafika > Nastavení pro konkrétní hry > Výkonnostní dotazy"
-
 msgctxt "#30311"
 msgid "Enable performance queries."
 msgstr "Povolit výkonnostní dotazy."
@@ -1278,10 +926,6 @@ msgctxt "#30313"
 msgid "Configure Wiimote infrared pointer, gyro and swing settings."
 msgstr "Nastavit infračervený ukazatel, gyroskop a švih ovladače Wiimote."
 
-msgctxt "#30314"
-msgid "WiiMote Sideways > Toggle Button"
-msgstr "Wiimote naležato > Tlačítko přepínání"
-
 msgctxt "#30315"
 msgid "Button used to toggle sideways mode. Can be disabled."
 msgstr "Tlačítko pro přepínání režimu naležato. Lze zakázat."
@@ -1290,17 +934,9 @@ msgctxt "#30316"
 msgid "L3 (Default)"
 msgstr "L3 (výchozí)"
 
-msgctxt "#30317"
-msgid "WiiMote Upright > Toggle Button"
-msgstr "Wiimote nastojato > Tlačítko přepínání"
-
 msgctxt "#30318"
 msgid "Button used to toggle upright mode. Can be disabled."
 msgstr "Tlačítko pro přepínání režimu nastojato. Lze zakázat."
-
-msgctxt "#30319"
-msgid "Wiimote IR > Wiimote IR Mode"
-msgstr "Wiimote IR > Režim Wiimote IR"
 
 msgctxt "#30320"
 msgid "Control method for Wiimote pointer."
@@ -1317,10 +953,6 @@ msgstr "Pravá páčka ovládá ukazatel (absolutně)"
 msgctxt "#30323"
 msgid "Mouse controls pointer"
 msgstr "Myš ovládá ukazatel"
-
-msgctxt "#30324"
-msgid "Wiimote IR > Wiimote IR Vertical Offset"
-msgstr "Wiimote IR > Svislý posun Wiimote IR"
 
 msgctxt "#30325"
 msgid "Adjust vertical center of Wiimote pointer."
@@ -1714,10 +1346,6 @@ msgctxt "#30422"
 msgid "9"
 msgstr "9"
 
-msgctxt "#30423"
-msgid "Wiimote IR > Wiimote IR Total Yaw"
-msgstr "Wiimote IR > Celkový úhel vybočení Wiimote IR"
-
 msgctxt "#30424"
 msgid "Horizontal field of view for Wiimote pointer."
 msgstr "Vodorovné zorné pole ukazatele Wiimote."
@@ -1930,17 +1558,9 @@ msgctxt "#30476"
 msgid "0"
 msgstr "0"
 
-msgctxt "#30477"
-msgid "Wiimote IR > Wiimote IR Total Pitch"
-msgstr "Wiimote IR > Celkový úhel klopení Wiimote IR"
-
 msgctxt "#30478"
 msgid "Vertical field of view for Wiimote pointer."
 msgstr "Svislé zorné pole ukazatele Wiimote."
-
-msgctxt "#30479"
-msgid "Wiimote IR > Wiimote IR Deadzone"
-msgstr "Wiimote IR > Mrtvá zóna Wiimote IR"
 
 msgctxt "#30480"
 msgid "Amount of small IR‑cursor movement to ignore (0–50%)."
@@ -1950,10 +1570,6 @@ msgctxt "#30481"
 msgid "0% (No Deadzone)"
 msgstr "0% (bez mrtvé zóny)"
 
-msgctxt "#30482"
-msgid "WiiMote IR > Modifier Button"
-msgstr "Wiimote IR > Modifikační tlačítko"
-
 msgctxt "#30483"
 msgid "Button used as a modifier for IR control. With no modifier selected, IR is always active with right thumbstick."
 msgstr "Tlačítko používané jako modifikátor pro ovládání IR. Pokud není vybrán žádný modifikátor, je ovládání IR pravou páčkou vždy aktivní."
@@ -1962,17 +1578,9 @@ msgctxt "#30484"
 msgid "None (Default)"
 msgstr "Žádné (výchozí)"
 
-msgctxt "#30485"
-msgid "WiiMote Swing > Modifier Button"
-msgstr "Wiimote švih > Modifikační tlačítko"
-
 msgctxt "#30486"
 msgid "Button to hold while using right thumbstick to activate swing. OFF turns off swing. Selecting none will allow free use of right thumb stick to swing (It will automatically filter out L3)."
 msgstr "Tlačítko, které je třeba držet při použití pravé páčky k aktivaci švihu. Volba „Zakázáno“ švih vypne. Volba „Žádné“ umožní volně používat pravou páčku ke švihu (L3 se automaticky odfiltruje)."
-
-msgctxt "#30487"
-msgid "Wiimote Swing > Angle"
-msgstr "Wiimote švih > Úhel"
 
 msgctxt "#30488"
 msgid "Rotation applied at the extremities of a swing (1-180°)."
@@ -2014,10 +1622,6 @@ msgctxt "#30497"
 msgid "180"
 msgstr "180"
 
-msgctxt "#30498"
-msgid "Wiimote IR > Wiimote IR Passthrough"
-msgstr "Wiimote IR > Přímé předávání Wiimote IR"
-
 msgctxt "#30499"
 msgid "Take the Wiimote camera's view of the sensor bar straight from the frontend, instead of deriving it from a cursor position. The frontend supplies up to four IR objects on pointer indices 1-4; Wiimote IR Mode, Total Yaw, Total Pitch and Vertical Offset are all bypassed. For frontends that know the real geometry (a VR room, a tracked light gun) this is exact, and it carries roll and distance, which a cursor cannot. Leave off for a mouse or a gamepad."
 msgstr "Přebírat pohled kamery Wiimote na senzorovou lištu přímo z frontendu místo jeho odvozování z polohy kurzoru. Frontend poskytuje až čtyři IR objekty na indexech ukazatele 1-4; nastavení Režim Wiimote IR, Celkový úhel vybočení, Celkový úhel klopení a Svislý posun se obcházejí. U frontendů, které znají skutečnou geometrii (místnost ve VR, sledovaná světelná pistole), je tento způsob přesný a přenáší i boční náklon a vzdálenost, což kurzor nedokáže. Pro myš nebo gamepad ponechte vypnuté."
@@ -2030,33 +1634,17 @@ msgctxt "#30501"
 msgid "Configure settings which are specific to the RetroArch core and do not exist in dolphin standlone."
 msgstr "Nastavit volby, které jsou specifické pro jádro RetroArch a v samostatném emulátoru Dolphin neexistují."
 
-msgctxt "#30502"
-msgid "RetroArch Core > Automatically Import Cheats into RetroArch"
-msgstr "Jádro RetroArch > Automaticky importovat cheaty do RetroArch"
-
 msgctxt "#30503"
 msgid "Import dolphin ini files into RetroArch. Restart core to take effect."
 msgstr "Importovat soubory ini emulátoru Dolphin do RetroArch. Změna se projeví po restartu jádra."
-
-msgctxt "#30504"
-msgid "RetroArch core > Load & Prevent Save Settings"
-msgstr "Jádro RetroArch > Načíst nastavení & zabránit jeho ukládání"
 
 msgctxt "#30505"
 msgid "Choose whether to load core settings from GCPad.ini/WiimoteNew.ini and also prevent saving to them. Core options may no longer be reflected correctly in RetroArch interface. Editing ini files incorrectly will likely crash the emulator."
 msgstr "Zvolit, zda se má nastavení jádra načítat ze souborů GCPad.ini/WiimoteNew.ini a zároveň zabránit jeho ukládání do těchto souborů. Volby jádra se pak nemusí správně zobrazovat v rozhraní RetroArch. Nesprávné úpravy souborů ini pravděpodobně způsobí pád emulátoru."
 
-msgctxt "#30506"
-msgid "RetroArch core > Enable Virtual File System (VFS)"
-msgstr "Jádro RetroArch > Povolit virtuální systém souborů (VFS)"
-
 msgctxt "#30507"
 msgid "Enable VFS for SAF/SMB etc. Requires core RESTART. This feature is NEW and EXPERIMENTAL. Backup your saves regularly."
 msgstr "Povolit VFS pro SAF/SMB atd. Vyžaduje RESTART jádra. Tato funkce je NOVÁ a EXPERIMENTÁLNÍ. Pravidelně zálohujte uložené pozice."
-
-msgctxt "#30508"
-msgid "RetroArch core > Enable Default Mouse Bindings"
-msgstr "Jádro RetroArch > Povolit výchozí přiřazení myši"
 
 msgctxt "#30509"
 msgid "Enable default Mouse Bindings, disable for more control on bindings."
@@ -2070,49 +1658,25 @@ msgctxt "#30511"
 msgid "Configure DSU client for DualShock motion data."
 msgstr "Nastavit klienta DSU pro pohybová data ovladače DualShock."
 
-msgctxt "#30512"
-msgid "Wiimote (DSU) > Enable DSU Client"
-msgstr "Wiimote (DSU) > Povolit klienta DSU"
-
 msgctxt "#30513"
 msgid "Enable DSU client for DualShock motion data. Restart core to take effect."
 msgstr "Povolit klienta DSU pro pohybová data ovladače DualShock. Změna se projeví po restartu jádra."
-
-msgctxt "#30514"
-msgid "Wiimote (DSU) > Server IP Octet 1"
-msgstr "Wiimote (DSU) > Oktet 1 IP adresy serveru"
 
 msgctxt "#30515"
 msgid "First octet of DSU server IP. e.g. for 192.168.1.10 set this to 192."
 msgstr "První oktet IP adresy serveru DSU. Např. pro 192.168.1.10 nastavte hodnotu 192."
 
-msgctxt "#30516"
-msgid "Wiimote (DSU) > Server IP Octet 2"
-msgstr "Wiimote (DSU) > Oktet 2 IP adresy serveru"
-
 msgctxt "#30517"
 msgid "Second octet of DSU server IP. e.g. for 192.168.1.10 set this to 168."
 msgstr "Druhý oktet IP adresy serveru DSU. Např. pro 192.168.1.10 nastavte hodnotu 168."
-
-msgctxt "#30518"
-msgid "Wiimote (DSU) > Server IP Octet 3"
-msgstr "Wiimote (DSU) > Oktet 3 IP adresy serveru"
 
 msgctxt "#30519"
 msgid "Third octet of DSU server IP. e.g. for 192.168.1.10 set this to 1."
 msgstr "Třetí oktet IP adresy serveru DSU. Např. pro 192.168.1.10 nastavte hodnotu 1."
 
-msgctxt "#30520"
-msgid "Wiimote (DSU) > Server IP Octet 4"
-msgstr "Wiimote (DSU) > Oktet 4 IP adresy serveru"
-
 msgctxt "#30521"
 msgid "Fourth octet of DSU server IP. e.g. for 192.168.1.10 set this to 10."
 msgstr "Čtvrtý oktet IP adresy serveru DSU. Např. pro 192.168.1.10 nastavte hodnotu 10."
-
-msgctxt "#30522"
-msgid "Wiimote (DSU) > Server Port"
-msgstr "Wiimote (DSU) > Port serveru"
 
 msgctxt "#30523"
 msgid "UDP port of DSU server. Default is 26760."
@@ -2142,10 +1706,6 @@ msgctxt "#30529"
 msgid "26765"
 msgstr "26765"
 
-msgctxt "#30530"
-msgid "Graphics > Settings > VR Mode"
-msgstr "Grafika > Nastavení > Režim VR"
-
 msgctxt "#30531"
 msgid "'Stereoscopic' shows the game on a virtual screen in 3D. 'Immersive' also turns the game camera with your head. Expect odd things in immersive mode. Requires a frontend with VR support."
 msgstr "Režim „Stereoskopický“ zobrazuje hru ve 3D na virtuální obrazovce. Režim „Imerzivní“ navíc otáčí herní kamerou podle pohybů hlavy. V imerzivním režimu počítejte s podivným chováním. Vyžaduje frontend s podporou VR."
@@ -2157,10 +1717,6 @@ msgstr "Stereoskopický"
 msgctxt "#30533"
 msgid "Immersive (Free Look)"
 msgstr "Imerzivní (volný pohled)"
-
-msgctxt "#30534"
-msgid "WiiMote > Device"
-msgstr "Wiimote > Zařízení"
 
 msgctxt "#30535"
 msgid "Device to use on every Wii port, in place of the one set for that port. Real WiiMote plays with Wiimotes connected to this device, for example through a DolphinBar, and scans for them continuously."
@@ -2218,10 +1774,830 @@ msgctxt "#30548"
 msgid "GameCube Controller"
 msgstr "Ovladač GameCube"
 
-msgctxt "#30549"
-msgid "Interface > Logging > Popups"
-msgstr "Rozhraní > Protokolování > Vyskakovací zprávy"
+msgctxt "#30551"
+msgid "CPU Core"
+msgstr "Jádro CPU"
 
-msgctxt "#30550"
-msgid "Enable Popup log messages."
-msgstr "Povolit vyskakovací zprávy protokolu."
+msgctxt "#30552"
+msgid "CPU Clock Rate"
+msgstr "Taktovací frekvence CPU"
+
+msgctxt "#30553"
+msgid "Emulation Speed"
+msgstr "Rychlost emulace"
+
+msgctxt "#30554"
+msgid "Dual Core Mode"
+msgstr "Dvoujádrový režim"
+
+msgctxt "#30557"
+msgid "Load Whole Game Into Memory"
+msgstr "Načíst celou hru do paměti"
+
+msgctxt "#30558"
+msgid "Precision Frame Timing"
+msgstr "Přesné časování snímků"
+
+msgctxt "#30559"
+msgid "Fastmem"
+msgstr "Fastmem"
+
+msgctxt "#30560"
+msgid "Fastmem Arena"
+msgstr "Fastmem Arena"
+
+msgctxt "#30561"
+msgid "Accurate CPU cache"
+msgstr "Přesná mezipaměť CPU"
+
+msgctxt "#30562"
+msgid "Internal Cheats"
+msgstr "Interní cheaty"
+
+msgctxt "#30563"
+msgid "Skip GameCube BIOS"
+msgstr "Přeskočit BIOS konzole GameCube"
+
+msgctxt "#30565"
+msgid "System Language"
+msgstr "Jazyk systému"
+
+msgctxt "#30566"
+msgid "Speed Up Disc Transfer"
+msgstr "Zrychlit přenos dat z disku"
+
+msgctxt "#30567"
+msgid "Enable MMU"
+msgstr "Povolit MMU"
+
+msgctxt "#30568"
+msgid "Rush Frame Presentation"
+msgstr "Uspíšit prezentaci snímků"
+
+msgctxt "#30569"
+msgid "Smooth Early Presentation"
+msgstr "Vyhladit předčasnou prezentaci"
+
+msgctxt "#30573"
+msgid "On-Screen Display"
+msgstr "Zobrazení na obrazovce"
+
+msgctxt "#30574"
+msgid "Log Level"
+msgstr "Úroveň protokolování"
+
+msgctxt "#30585"
+msgid "Enable debugging"
+msgstr "Povolit ladění"
+
+msgctxt "#30570"
+msgid "DSP HLE"
+msgstr "DSP HLE"
+
+msgctxt "#30571"
+msgid "DSP JIT"
+msgstr "DSP JIT"
+
+msgctxt "#30572"
+msgid "Async Audio Callback"
+msgstr "Asynchronní zpětné volání pro zvuk"
+
+msgctxt "#30586"
+msgid "SP1 Device"
+msgstr "Zařízení SP1"
+
+msgctxt "#30587"
+msgid "GameCube Microphone"
+msgstr "Mikrofon GameCube"
+
+msgctxt "#30588"
+msgid "Microphone Button"
+msgstr "Tlačítko mikrofonu"
+
+msgctxt "#30589"
+msgid "Widescreen (Wii)"
+msgstr "Širokoúhlé zobrazení (Wii)"
+
+msgctxt "#30590"
+msgid "Progressive Scan"
+msgstr "Progresivní rozklad"
+
+msgctxt "#30591"
+msgid "PAL60 Mode"
+msgstr "Režim PAL60"
+
+msgctxt "#30592"
+msgid "Sensor Bar Position"
+msgstr "Poloha senzorové lišty"
+
+msgctxt "#30593"
+msgid "Controller Rumble"
+msgstr "Vibrace ovladače"
+
+msgctxt "#30594"
+msgid "Wiimote Continuous Scanning"
+msgstr "Nepřetržité vyhledávání ovladačů Wiimote"
+
+msgctxt "#30595"
+msgid "Alt GC Ports (Wii)"
+msgstr "Alternativní porty GC (Wii)"
+
+msgctxt "#30596"
+msgid "Bluetooth passthrough mode"
+msgstr "Režim přímého předávání Bluetooth"
+
+msgctxt "#30597"
+msgid "Wii Speak"
+msgstr "Wii Speak"
+
+msgctxt "#30598"
+msgid "Wii Speak Muted"
+msgstr "Ztlumení Wii Speak"
+
+msgctxt "#30599"
+msgid "Logitech USB Microphone"
+msgstr "Mikrofon Logitech USB"
+
+msgctxt "#30600"
+msgid "Graphics Backend"
+msgstr "Grafický backend"
+
+msgctxt "#30601"
+msgid "Widescreen Hack"
+msgstr "Hack pro širokoúhlé zobrazení"
+
+msgctxt "#30602"
+msgid "Aspect Ratio"
+msgstr "Poměr stran"
+
+msgctxt "#30603"
+msgid "Crop Overscan"
+msgstr "Oříznout přesah obrazu"
+
+msgctxt "#30604"
+msgid "Internal Resolution"
+msgstr "Interní rozlišení"
+
+msgctxt "#30605"
+msgid "Shader Compilation"
+msgstr "Kompilace shaderů"
+
+msgctxt "#30606"
+msgid "Wait for Shaders"
+msgstr "Čekat na shadery"
+
+msgctxt "#30607"
+msgid "Anti-Aliasing"
+msgstr "Vyhlazování hran"
+
+msgctxt "#30608"
+msgid "Texture Cache Accuracy"
+msgstr "Přesnost mezipaměti textur"
+
+msgctxt "#30609"
+msgid "GPU Texture Decoding"
+msgstr "Dekódování textur na GPU"
+
+msgctxt "#30610"
+msgid "Pixel Lighting"
+msgstr "Osvětlení po pixelech"
+
+msgctxt "#30611"
+msgid "Fast Depth Calculation"
+msgstr "Rychlý výpočet hloubky"
+
+msgctxt "#30612"
+msgid "Disable Fog"
+msgstr "Zakázat mlhu"
+
+msgctxt "#30613"
+msgid "Enable Mods"
+msgstr "Povolit modifikace"
+
+msgctxt "#30614"
+msgid "VR Mode"
+msgstr "Režim VR"
+
+msgctxt "#30615"
+msgid "Texture Filtering"
+msgstr "Filtrování textur"
+
+msgctxt "#30616"
+msgid "Anisotropic Filtering"
+msgstr "Anizotropní filtrování"
+
+msgctxt "#30617"
+msgid "Load Custom Textures"
+msgstr "Načítat vlastní textury"
+
+msgctxt "#30618"
+msgid "Prefetch Custom Textures"
+msgstr "Přednačítat vlastní textury"
+
+msgctxt "#30619"
+msgid "Output Resampling"
+msgstr "Převzorkování výstupu"
+
+msgctxt "#30620"
+msgid "Force True Color"
+msgstr "Vynutit plnou barevnou hloubku"
+
+msgctxt "#30621"
+msgid "Disable Copy Filter"
+msgstr "Zakázat filtr kopírování"
+
+msgctxt "#30622"
+msgid "HDR Output"
+msgstr "Výstup HDR"
+
+msgctxt "#30623"
+msgid "Arbitrary Mipmap Detection"
+msgstr "Detekce nestandardních mipmap"
+
+msgctxt "#30624"
+msgid "EFB Access from CPU"
+msgstr "Přístup k EFB z CPU"
+
+msgctxt "#30625"
+msgid "EFB Access Defer Invalidation"
+msgstr "Odložit zneplatnění při přístupu k EFB"
+
+msgctxt "#30626"
+msgid "EFB Access Tile Size"
+msgstr "Velikost dlaždice pro přístup k EFB"
+
+msgctxt "#30627"
+msgid "Bounding Box"
+msgstr "Ohraničující rámeček"
+
+msgctxt "#30628"
+msgid "Force Progressive"
+msgstr "Vynutit progresivní rozklad"
+
+msgctxt "#30629"
+msgid "Skip EFB Copy to RAM"
+msgstr "Přeskočit kopírování EFB do RAM"
+
+msgctxt "#30630"
+msgid "Skip XFB Copy to RAM"
+msgstr "Přeskočit kopírování XFB do RAM"
+
+msgctxt "#30631"
+msgid "Disable EFB to VRAM"
+msgstr "Zakázat kopírování EFB do VRAM"
+
+msgctxt "#30632"
+msgid "Defer EFB Copies"
+msgstr "Odložit kopírování EFB"
+
+msgctxt "#30633"
+msgid "Immediate XFB"
+msgstr "Okamžité zobrazení XFB"
+
+msgctxt "#30634"
+msgid "Skip Duplicate Frames"
+msgstr "Přeskakovat duplicitní snímky"
+
+msgctxt "#30635"
+msgid "Early XFB Output"
+msgstr "Dřívější výstup XFB"
+
+msgctxt "#30636"
+msgid "EFB Scaled Copy"
+msgstr "Změna měřítka kopie EFB"
+
+msgctxt "#30637"
+msgid "EFB Emulate Format Changes"
+msgstr "Emulovat změny formátu EFB"
+
+msgctxt "#30638"
+msgid "Vertex Rounding"
+msgstr "Zaokrouhlování vrcholů"
+
+msgctxt "#30639"
+msgid "VI Skip"
+msgstr "Přeskakování VI"
+
+msgctxt "#30640"
+msgid "Fast Texture Sampling"
+msgstr "Rychlé vzorkování textur"
+
+msgctxt "#30641"
+msgid "Performance Queries"
+msgstr "Výkonnostní dotazy"
+
+msgctxt "#30642"
+msgid "Device"
+msgstr "Zařízení"
+
+msgctxt "#30645"
+msgid "Wiimote IR Mode"
+msgstr "Režim Wiimote IR"
+
+msgctxt "#30646"
+msgid "Wiimote IR Vertical Offset"
+msgstr "Svislý posun Wiimote IR"
+
+msgctxt "#30647"
+msgid "Wiimote IR Total Yaw"
+msgstr "Celkový úhel vybočení Wiimote IR"
+
+msgctxt "#30648"
+msgid "Wiimote IR Total Pitch"
+msgstr "Celkový úhel klopení Wiimote IR"
+
+msgctxt "#30654"
+msgid "Automatically Import Cheats into RetroArch"
+msgstr "Automaticky importovat cheaty do RetroArch"
+
+msgctxt "#30655"
+msgid "Load & Prevent Save Settings"
+msgstr "Načíst nastavení & zabránit jeho ukládání"
+
+msgctxt "#30653"
+msgid "Wiimote IR Passthrough"
+msgstr "Přímé předávání Wiimote IR"
+
+msgctxt "#30656"
+msgid "Enable Virtual File System (VFS)"
+msgstr "Povolit virtuální systém souborů (VFS)"
+
+msgctxt "#30657"
+msgid "Enable Default Mouse Bindings"
+msgstr "Povolit výchozí přiřazení myši"
+
+msgctxt "#30660"
+msgid "Enable DSU Client"
+msgstr "Povolit klienta DSU"
+
+msgctxt "#30661"
+msgid "Server IP Octet 1"
+msgstr "Oktet 1 IP adresy serveru"
+
+msgctxt "#30662"
+msgid "Server IP Octet 2"
+msgstr "Oktet 2 IP adresy serveru"
+
+msgctxt "#30663"
+msgid "Server IP Octet 3"
+msgstr "Oktet 3 IP adresy serveru"
+
+msgctxt "#30664"
+msgid "Server IP Octet 4"
+msgstr "Oktet 4 IP adresy serveru"
+
+msgctxt "#30665"
+msgid "Server Port"
+msgstr "Port serveru"
+
+#~ msgctxt "#30003"
+#~ msgid "Core > CPU Core"
+#~ msgstr "Jádro > Jádro CPU"
+
+#~ msgctxt "#30008"
+#~ msgid "Core > CPU Clock Rate"
+#~ msgstr "Jádro > Taktovací frekvence CPU"
+
+#~ msgctxt "#30025"
+#~ msgid "Core > Emulation Speed"
+#~ msgstr "Jádro > Rychlost emulace"
+
+#~ msgctxt "#30029"
+#~ msgid "Core > Dual Core Mode"
+#~ msgstr "Jádro > Dvoujádrový režim"
+
+#~ msgctxt "#30033"
+#~ msgid "Core > Load Whole Game Into Memory"
+#~ msgstr "Jádro > Načíst celou hru do paměti"
+
+#~ msgctxt "#30035"
+#~ msgid "Core > Precision Frame Timing"
+#~ msgstr "Jádro > Přesné časování snímků"
+
+#~ msgctxt "#30037"
+#~ msgid "Core > Fastmem"
+#~ msgstr "Jádro > Fastmem"
+
+#~ msgctxt "#30039"
+#~ msgid "Core > Fastmem Arena"
+#~ msgstr "Jádro > Fastmem Arena"
+
+#~ msgctxt "#30041"
+#~ msgid "Core > Accurate CPU cache"
+#~ msgstr "Jádro > Přesná mezipaměť CPU"
+
+#~ msgctxt "#30043"
+#~ msgid "Core > Internal Cheats"
+#~ msgstr "Jádro > Interní cheaty"
+
+#~ msgctxt "#30045"
+#~ msgid "Core > Skip GameCube BIOS"
+#~ msgstr "Jádro > Přeskočit BIOS konzole GameCube"
+
+#~ msgctxt "#30047"
+#~ msgid "Core > Disc Based Games Boot to Wii Menu"
+#~ msgstr "Jádro > Spouštět diskové hry do nabídky Wii"
+
+#~ msgctxt "#30049"
+#~ msgid "Core > System Language"
+#~ msgstr "Jádro > Jazyk systému"
+
+#~ msgctxt "#30061"
+#~ msgid "Core > Speed Up Disc Transfer"
+#~ msgstr "Jádro > Zrychlit přenos dat z disku"
+
+#~ msgctxt "#30063"
+#~ msgid "Core > Enable MMU"
+#~ msgstr "Jádro > Povolit MMU"
+
+#~ msgctxt "#30065"
+#~ msgid "Core > Rush Frame Presentation"
+#~ msgstr "Jádro > Uspíšit prezentaci snímků"
+
+#~ msgctxt "#30067"
+#~ msgid "Core > Smooth Early Presentation"
+#~ msgstr "Jádro > Vyhladit předčasnou prezentaci"
+
+#~ msgctxt "#30071"
+#~ msgid "Audio / DSP > DSP HLE"
+#~ msgstr "Zvuk / DSP > DSP HLE"
+
+#~ msgctxt "#30075"
+#~ msgid "Audio / DSP > DSP JIT"
+#~ msgstr "Zvuk / DSP > DSP JIT"
+
+#~ msgctxt "#30077"
+#~ msgid "Audio / DSP > Async Audio Callback"
+#~ msgstr "Zvuk / DSP > Asynchronní zpětné volání pro zvuk"
+
+#~ msgctxt "#30084"
+#~ msgid "Interface > On-Screen Display"
+#~ msgstr "Rozhraní > Zobrazení na obrazovce"
+
+#~ msgctxt "#30086"
+#~ msgid "Interface > Log Level"
+#~ msgstr "Rozhraní > Úroveň protokolování"
+
+#~ msgctxt "#30092"
+#~ msgid "Interface > Logging > Boot"
+#~ msgstr "Rozhraní > Protokolování > Spouštění"
+
+#~ msgctxt "#30094"
+#~ msgid "Interface > Logging > Core"
+#~ msgstr "Rozhraní > Protokolování > Jádro"
+
+#~ msgctxt "#30096"
+#~ msgid "Interface > Logging > Video"
+#~ msgstr "Rozhraní > Protokolování > Video"
+
+#~ msgctxt "#30098"
+#~ msgid "Interface > Logging > Common"
+#~ msgstr "Rozhraní > Protokolování > Obecné"
+
+#~ msgctxt "#30100"
+#~ msgid "Interface > Logging > Host GPU"
+#~ msgstr "Rozhraní > Protokolování > Hostitelské GPU"
+
+#~ msgctxt "#30102"
+#~ msgid "Interface > Logging > MemMap"
+#~ msgstr "Rozhraní > Protokolování > MemMap"
+
+#~ msgctxt "#30104"
+#~ msgid "Interface > Logging > DSP Interface"
+#~ msgstr "Rozhraní > Protokolování > Rozhraní DSP"
+
+#~ msgctxt "#30106"
+#~ msgid "Interface > Logging > DSP HLE"
+#~ msgstr "Rozhraní > Protokolování > DSP HLE"
+
+#~ msgctxt "#30108"
+#~ msgid "Interface > Logging > DSP LLE"
+#~ msgstr "Rozhraní > Protokolování > DSP LLE"
+
+#~ msgctxt "#30110"
+#~ msgid "Interface > Logging > DSP MAIL"
+#~ msgstr "Rozhraní > Protokolování > DSP MAIL"
+
+#~ msgctxt "#30112"
+#~ msgid "Interface > Enable debugging"
+#~ msgstr "Rozhraní > Povolit ladění"
+
+#~ msgctxt "#30116"
+#~ msgid "System Configuration (GC) > SP1 Device"
+#~ msgstr "Nastavení systému (GC) > Zařízení SP1"
+
+#~ msgctxt "#30127"
+#~ msgid "System Configuration (GC) > GameCube Microphone"
+#~ msgstr "Nastavení systému (GC) > Mikrofon GameCube"
+
+#~ msgctxt "#30129"
+#~ msgid "System Configuration (GC) > Microphone Button"
+#~ msgstr "Nastavení systému (GC) > Tlačítko mikrofonu"
+
+#~ msgctxt "#30145"
+#~ msgid "System Configuration > Widescreen (Wii)"
+#~ msgstr "Nastavení systému > Širokoúhlé zobrazení (Wii)"
+
+#~ msgctxt "#30147"
+#~ msgid "System Configuration > Progressive Scan"
+#~ msgstr "Nastavení systému > Progresivní rozklad"
+
+#~ msgctxt "#30149"
+#~ msgid "System Configuration > PAL60 Mode"
+#~ msgstr "Nastavení systému > Režim PAL60"
+
+#~ msgctxt "#30151"
+#~ msgid "System Configuration > Sensor Bar Position"
+#~ msgstr "Nastavení systému > Poloha senzorové lišty"
+
+#~ msgctxt "#30155"
+#~ msgid "System Configuration > Controller Rumble"
+#~ msgstr "Nastavení systému > Vibrace ovladače"
+
+#~ msgctxt "#30157"
+#~ msgid "System Configuration > Wiimote Continuous Scanning"
+#~ msgstr "Nastavení systému > Nepřetržité vyhledávání ovladačů Wiimote"
+
+#~ msgctxt "#30159"
+#~ msgid "System Configuration > Alt GC Ports (Wii)"
+#~ msgstr "Nastavení systému > Alternativní porty GC (Wii)"
+
+#~ msgctxt "#30161"
+#~ msgid "System Configuration > Bluetooth passthrough mode"
+#~ msgstr "Nastavení systému > Režim přímého předávání Bluetooth"
+
+#~ msgctxt "#30163"
+#~ msgid "System Configuration > Wii Speak"
+#~ msgstr "Nastavení systému > Wii Speak"
+
+#~ msgctxt "#30165"
+#~ msgid "Audio > Devices > Wii Speak Muted"
+#~ msgstr "Zvuk > Zařízení > Ztlumení Wii Speak"
+
+#~ msgctxt "#30167"
+#~ msgid "System Configuration > Logitech USB Microphone"
+#~ msgstr "Nastavení systému > Mikrofon Logitech USB"
+
+#~ msgctxt "#30171"
+#~ msgid "Graphics > Settings > Graphics Backend"
+#~ msgstr "Grafika > Nastavení > Grafický backend"
+
+#~ msgctxt "#30174"
+#~ msgid "Graphics > Settings > Widescreen Hack"
+#~ msgstr "Grafika > Nastavení > Hack pro širokoúhlé zobrazení"
+
+#~ msgctxt "#30176"
+#~ msgid "Graphics > Settings > Aspect Ratio"
+#~ msgstr "Grafika > Nastavení > Poměr stran"
+
+#~ msgctxt "#30185"
+#~ msgid "Graphics > Settings > Crop Overscan"
+#~ msgstr "Grafika > Nastavení > Oříznout přesah obrazu"
+
+#~ msgctxt "#30187"
+#~ msgid "Graphics > Settings > Internal Resolution"
+#~ msgstr "Grafika > Nastavení > Interní rozlišení"
+
+#~ msgctxt "#30201"
+#~ msgid "Graphics > Settings > Shader Compilation"
+#~ msgstr "Grafika > Nastavení > Kompilace shaderů"
+
+#~ msgctxt "#30207"
+#~ msgid "Graphics > Settings > Wait for Shaders"
+#~ msgstr "Grafika > Nastavení > Čekat na shadery"
+
+#~ msgctxt "#30209"
+#~ msgid "Graphics > Settings > Anti-Aliasing"
+#~ msgstr "Grafika > Nastavení > Vyhlazování hran"
+
+#~ msgctxt "#30217"
+#~ msgid "Graphics > Settings > Texture Cache Accuracy"
+#~ msgstr "Grafika > Nastavení > Přesnost mezipaměti textur"
+
+#~ msgctxt "#30222"
+#~ msgid "Graphics > Settings > GPU Texture Decoding"
+#~ msgstr "Grafika > Nastavení > Dekódování textur na GPU"
+
+#~ msgctxt "#30224"
+#~ msgid "Graphics > Settings > Pixel Lighting"
+#~ msgstr "Grafika > Nastavení > Osvětlení po pixelech"
+
+#~ msgctxt "#30226"
+#~ msgid "Graphics > Settings > Fast Depth Calculation"
+#~ msgstr "Grafika > Nastavení > Rychlý výpočet hloubky"
+
+#~ msgctxt "#30228"
+#~ msgid "Graphics > Settings > Disable Fog"
+#~ msgstr "Grafika > Nastavení > Zakázat mlhu"
+
+#~ msgctxt "#30230"
+#~ msgid "Graphics > Settings > Enable Mods"
+#~ msgstr "Grafika > Nastavení > Povolit modifikace"
+
+#~ msgctxt "#30234"
+#~ msgid "Graphics > Enhancements > Texture Filtering"
+#~ msgstr "Grafika > Vylepšení > Filtrování textur"
+
+#~ msgctxt "#30239"
+#~ msgid "Graphics > Enhancements > Anisotropic Filtering"
+#~ msgstr "Grafika > Vylepšení > Anizotropní filtrování"
+
+#~ msgctxt "#30246"
+#~ msgid "Graphics > Enhancements > Load Custom Textures"
+#~ msgstr "Grafika > Vylepšení > Načítat vlastní textury"
+
+#~ msgctxt "#30248"
+#~ msgid "Graphics > Enhancements > Prefetch Custom Textures"
+#~ msgstr "Grafika > Vylepšení > Přednačítat vlastní textury"
+
+#~ msgctxt "#30250"
+#~ msgid "Graphics > Enhancements > Output Resampling"
+#~ msgstr "Grafika > Vylepšení > Převzorkování výstupu"
+
+#~ msgctxt "#30258"
+#~ msgid "Graphics > Enhancements > Force True Color"
+#~ msgstr "Grafika > Vylepšení > Vynutit plnou barevnou hloubku"
+
+#~ msgctxt "#30260"
+#~ msgid "Graphics > Enhancements > Disable Copy Filter"
+#~ msgstr "Grafika > Vylepšení > Zakázat filtr kopírování"
+
+#~ msgctxt "#30262"
+#~ msgid "Graphics > Enhancements > HDR Output"
+#~ msgstr "Grafika > Vylepšení > Výstup HDR"
+
+#~ msgctxt "#30264"
+#~ msgid "Graphics > Enhancements > Arbitrary Mipmap Detection"
+#~ msgstr "Grafika > Vylepšení > Detekce nestandardních mipmap"
+
+#~ msgctxt "#30268"
+#~ msgid "Graphics > Hacks > EFB Access from CPU"
+#~ msgstr "Grafika > Hacky > Přístup k EFB z CPU"
+
+#~ msgctxt "#30270"
+#~ msgid "Graphics > Hacks > EFB Access Defer Invalidation"
+#~ msgstr "Grafika > Hacky > Odložit zneplatnění při přístupu k EFB"
+
+#~ msgctxt "#30272"
+#~ msgid "Graphics > Hacks > EFB Access Tile Size"
+#~ msgstr "Grafika > Hacky > Velikost dlaždice pro přístup k EFB"
+
+#~ msgctxt "#30280"
+#~ msgid "Graphics > Hacks > Bounding Box"
+#~ msgstr "Grafika > Hacky > Ohraničující rámeček"
+
+#~ msgctxt "#30282"
+#~ msgid "Graphics > Hacks > Force Progressive"
+#~ msgstr "Grafika > Hacky > Vynutit progresivní rozklad"
+
+#~ msgctxt "#30284"
+#~ msgid "Graphics > Hacks > Skip EFB Copy to RAM"
+#~ msgstr "Grafika > Hacky > Přeskočit kopírování EFB do RAM"
+
+#~ msgctxt "#30286"
+#~ msgid "Graphics > Hacks > Skip XFB Copy to RAM"
+#~ msgstr "Grafika > Hacky > Přeskočit kopírování XFB do RAM"
+
+#~ msgctxt "#30288"
+#~ msgid "Graphics > Hacks > Disable EFB to VRAM"
+#~ msgstr "Grafika > Hacky > Zakázat kopírování EFB do VRAM"
+
+#~ msgctxt "#30290"
+#~ msgid "Graphics > Hacks > Defer EFB Copies"
+#~ msgstr "Grafika > Hacky > Odložit kopírování EFB"
+
+#~ msgctxt "#30292"
+#~ msgid "Graphics > Hacks > Immediate XFB"
+#~ msgstr "Grafika > Hacky > Okamžité zobrazení XFB"
+
+#~ msgctxt "#30294"
+#~ msgid "Graphics > Hacks > Skip Duplicate Frames"
+#~ msgstr "Grafika > Hacky > Přeskakovat duplicitní snímky"
+
+#~ msgctxt "#30296"
+#~ msgid "Graphics > Hacks > Early XFB Output"
+#~ msgstr "Grafika > Hacky > Dřívější výstup XFB"
+
+#~ msgctxt "#30298"
+#~ msgid "Graphics > Hacks > EFB Scaled Copy"
+#~ msgstr "Grafika > Hacky > Změna měřítka kopie EFB"
+
+#~ msgctxt "#30300"
+#~ msgid "Graphics > Hacks > EFB Emulate Format Changes"
+#~ msgstr "Grafika > Hacky > Emulovat změny formátu EFB"
+
+#~ msgctxt "#30302"
+#~ msgid "Graphics > Hacks > Vertex Rounding"
+#~ msgstr "Grafika > Hacky > Zaokrouhlování vrcholů"
+
+#~ msgctxt "#30304"
+#~ msgid "Graphics > Hacks > VI Skip"
+#~ msgstr "Grafika > Hacky > Přeskakování VI"
+
+#~ msgctxt "#30306"
+#~ msgid "Graphics > Hacks > Fast Texture Sampling"
+#~ msgstr "Grafika > Hacky > Rychlé vzorkování textur"
+
+#~ msgctxt "#30310"
+#~ msgid "Graphics > Game Specific > Performance Queries"
+#~ msgstr "Grafika > Nastavení pro konkrétní hry > Výkonnostní dotazy"
+
+#~ msgctxt "#30314"
+#~ msgid "WiiMote Sideways > Toggle Button"
+#~ msgstr "Wiimote naležato > Tlačítko přepínání"
+
+#~ msgctxt "#30317"
+#~ msgid "WiiMote Upright > Toggle Button"
+#~ msgstr "Wiimote nastojato > Tlačítko přepínání"
+
+#~ msgctxt "#30319"
+#~ msgid "Wiimote IR > Wiimote IR Mode"
+#~ msgstr "Wiimote IR > Režim Wiimote IR"
+
+#~ msgctxt "#30324"
+#~ msgid "Wiimote IR > Wiimote IR Vertical Offset"
+#~ msgstr "Wiimote IR > Svislý posun Wiimote IR"
+
+#~ msgctxt "#30423"
+#~ msgid "Wiimote IR > Wiimote IR Total Yaw"
+#~ msgstr "Wiimote IR > Celkový úhel vybočení Wiimote IR"
+
+#~ msgctxt "#30477"
+#~ msgid "Wiimote IR > Wiimote IR Total Pitch"
+#~ msgstr "Wiimote IR > Celkový úhel klopení Wiimote IR"
+
+#~ msgctxt "#30479"
+#~ msgid "Wiimote IR > Wiimote IR Deadzone"
+#~ msgstr "Wiimote IR > Mrtvá zóna Wiimote IR"
+
+#~ msgctxt "#30482"
+#~ msgid "WiiMote IR > Modifier Button"
+#~ msgstr "Wiimote IR > Modifikační tlačítko"
+
+#~ msgctxt "#30485"
+#~ msgid "WiiMote Swing > Modifier Button"
+#~ msgstr "Wiimote švih > Modifikační tlačítko"
+
+#~ msgctxt "#30487"
+#~ msgid "Wiimote Swing > Angle"
+#~ msgstr "Wiimote švih > Úhel"
+
+#~ msgctxt "#30498"
+#~ msgid "Wiimote IR > Wiimote IR Passthrough"
+#~ msgstr "Wiimote IR > Přímé předávání Wiimote IR"
+
+#~ msgctxt "#30502"
+#~ msgid "RetroArch Core > Automatically Import Cheats into RetroArch"
+#~ msgstr "Jádro RetroArch > Automaticky importovat cheaty do RetroArch"
+
+#~ msgctxt "#30504"
+#~ msgid "RetroArch core > Load & Prevent Save Settings"
+#~ msgstr "Jádro RetroArch > Načíst nastavení & zabránit jeho ukládání"
+
+#~ msgctxt "#30506"
+#~ msgid "RetroArch core > Enable Virtual File System (VFS)"
+#~ msgstr "Jádro RetroArch > Povolit virtuální systém souborů (VFS)"
+
+#~ msgctxt "#30508"
+#~ msgid "RetroArch core > Enable Default Mouse Bindings"
+#~ msgstr "Jádro RetroArch > Povolit výchozí přiřazení myši"
+
+#~ msgctxt "#30512"
+#~ msgid "Wiimote (DSU) > Enable DSU Client"
+#~ msgstr "Wiimote (DSU) > Povolit klienta DSU"
+
+#~ msgctxt "#30514"
+#~ msgid "Wiimote (DSU) > Server IP Octet 1"
+#~ msgstr "Wiimote (DSU) > Oktet 1 IP adresy serveru"
+
+#~ msgctxt "#30516"
+#~ msgid "Wiimote (DSU) > Server IP Octet 2"
+#~ msgstr "Wiimote (DSU) > Oktet 2 IP adresy serveru"
+
+#~ msgctxt "#30518"
+#~ msgid "Wiimote (DSU) > Server IP Octet 3"
+#~ msgstr "Wiimote (DSU) > Oktet 3 IP adresy serveru"
+
+#~ msgctxt "#30520"
+#~ msgid "Wiimote (DSU) > Server IP Octet 4"
+#~ msgstr "Wiimote (DSU) > Oktet 4 IP adresy serveru"
+
+#~ msgctxt "#30522"
+#~ msgid "Wiimote (DSU) > Server Port"
+#~ msgstr "Wiimote (DSU) > Port serveru"
+
+#~ msgctxt "#30530"
+#~ msgid "Graphics > Settings > VR Mode"
+#~ msgstr "Grafika > Nastavení > Režim VR"
+
+#~ msgctxt "#30534"
+#~ msgid "WiiMote > Device"
+#~ msgstr "Wiimote > Zařízení"
+
+#~ msgctxt "#30549"
+#~ msgid "Interface > Logging > Popups"
+#~ msgstr "Rozhraní > Protokolování > Vyskakovací zprávy"
+
+#~ msgctxt "#30550"
+#~ msgid "Enable Popup log messages."
+#~ msgstr "Povolit vyskakovací zprávy protokolu."
