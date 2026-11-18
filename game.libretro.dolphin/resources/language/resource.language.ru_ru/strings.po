@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.dolphin\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-12-03 11:17i\n"
-"PO-Revision-Date: 2026-10-27 08:24+0000\n"
+"PO-Revision-Date: 2026-11-18 22:12+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-dolphin/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 msgctxt "Addon Summary"
 msgid "Nintendo - GameCube / Wii (Dolphin)"
@@ -1776,11 +1776,11 @@ msgstr "GameCube Controller"
 
 msgctxt "#30551"
 msgid "CPU Core"
-msgstr ""
+msgstr "Ядро ЦП"
 
 msgctxt "#30552"
 msgid "CPU Clock Rate"
-msgstr ""
+msgstr "Тактовая частота ЦП"
 
 msgctxt "#30553"
 msgid "Emulation Speed"
@@ -1792,11 +1792,11 @@ msgstr "Двухъядерный режим"
 
 msgctxt "#30555"
 msgid "Synchronize GPU Thread"
-msgstr ""
+msgstr "Синхронизировать поток ГП"
 
 msgctxt "#30556"
 msgid "Keeps the dual-core GPU thread in step with the CPU thread, which stops FIFO desyncs at some speed cost. Requires core RESTART."
-msgstr ""
+msgstr "Синхронизирует поток ГП двухъядерного режима с потоком ЦП, что устраняет рассинхронизацию FIFO ценой некоторого снижения скорости. Требуется ПЕРЕЗАПУСК ядра."
 
 msgctxt "#30557"
 msgid "Load Whole Game Into Memory"
@@ -1804,7 +1804,7 @@ msgstr "Загружать всю игру в память"
 
 msgctxt "#30558"
 msgid "Precision Frame Timing"
-msgstr ""
+msgstr "Точная синхронизация кадров"
 
 msgctxt "#30559"
 msgid "Fastmem"
@@ -1812,7 +1812,7 @@ msgstr "Fastmem"
 
 msgctxt "#30560"
 msgid "Fastmem Arena"
-msgstr ""
+msgstr "Арена быстрой памяти"
 
 msgctxt "#30561"
 msgid "Accurate CPU cache"
@@ -1828,7 +1828,7 @@ msgstr "Пропускать BIOS GameCube"
 
 msgctxt "#30564"
 msgid "Disc Based Games Boot to Wii System Menu"
-msgstr ""
+msgstr "Запуск игр с дисков в системное меню Wii"
 
 msgctxt "#30565"
 msgid "System Language"
@@ -1872,43 +1872,43 @@ msgstr "Уровень журналирования"
 
 msgctxt "#30575"
 msgid "Boot Logging"
-msgstr ""
+msgstr "Журналирование загрузки"
 
 msgctxt "#30576"
 msgid "Core Logging"
-msgstr ""
+msgstr "Журналирование ядра"
 
 msgctxt "#30577"
 msgid "Video Logging"
-msgstr ""
+msgstr "Журналирование видео"
 
 msgctxt "#30578"
 msgid "Common Logging"
-msgstr ""
+msgstr "Общее журналирование"
 
 msgctxt "#30579"
 msgid "Host GPU Logging"
-msgstr ""
+msgstr "Журналирование ГП хоста"
 
 msgctxt "#30580"
 msgid "MemMap Logging"
-msgstr ""
+msgstr "Журналирование карты памяти"
 
 msgctxt "#30581"
 msgid "DSP Interface Logging"
-msgstr ""
+msgstr "Журналирование интерфейса DSP"
 
 msgctxt "#30582"
 msgid "DSP HLE Logging"
-msgstr ""
+msgstr "Журналирование DSP HLE"
 
 msgctxt "#30583"
 msgid "DSP LLE Logging"
-msgstr ""
+msgstr "Журналирование DSP LLE"
 
 msgctxt "#30584"
 msgid "DSP MAIL Logging"
-msgstr ""
+msgstr "Журналирование DSP MAIL"
 
 msgctxt "#30585"
 msgid "Enable debugging"
@@ -2144,11 +2144,11 @@ msgstr "Устройство"
 
 msgctxt "#30643"
 msgid "Sideways Toggle Button"
-msgstr ""
+msgstr "Кнопка переключения горизонтального режима"
 
 msgctxt "#30644"
 msgid "Upright Toggle Button"
-msgstr ""
+msgstr "Кнопка переключения вертикального режима"
 
 msgctxt "#30645"
 msgid "Wiimote IR Mode"
@@ -2168,19 +2168,19 @@ msgstr "Общий тангаж ИК-указателя"
 
 msgctxt "#30649"
 msgid "IR Deadzone"
-msgstr ""
+msgstr "Мёртвая зона ИК-указателя"
 
 msgctxt "#30650"
 msgid "IR Modifier Button"
-msgstr ""
+msgstr "Кнопка-модификатор ИК-указателя"
 
 msgctxt "#30651"
 msgid "Swing Modifier Button"
-msgstr ""
+msgstr "Кнопка-модификатор взмаха"
 
 msgctxt "#30652"
 msgid "Swing Angle"
-msgstr ""
+msgstr "Угол взмаха"
 
 msgctxt "#30653"
 msgid "Wiimote IR Passthrough"
@@ -2204,11 +2204,11 @@ msgstr "Включить привязки мыши по умолчанию"
 
 msgctxt "#30658"
 msgid "Popup Logging"
-msgstr ""
+msgstr "Журналирование во всплывающих сообщениях"
 
 msgctxt "#30659"
 msgid "Enable Popup log messages. Some messages will still appear despite setting this to false, such as when dolphin cannot find a suitable Bluetooth USB adapter (if passthrough enabled), as this leads to a failed boot."
-msgstr ""
+msgstr "Включить журналирование во всплывающих сообщениях. Некоторые сообщения появятся, даже если этот параметр отключён, например если Dolphin не может найти подходящий Bluetooth USB-адаптер (при включённой сквозной передаче), так как это приводит к неудачной загрузке."
 
 msgctxt "#30660"
 msgid "Enable DSU Client"
